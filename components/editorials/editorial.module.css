@@ -1,0 +1,34 @@
+.shadow {
+  box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+}
+.trendingnow {
+  box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+  width: 40%;
+  height: 483px;
+}
+.shadow p {
+  cursor: pointer;
+}
+.shadow p:hover {
+  color: #489fc5;
+}
+.cardContainer::-webkit-scrollbar {
+  width: 0;
+}
+.IdeaLeaderCard,
+.IdeaLeaderCard2 {
+  border: 5px solid #f7f7f7;
+  position: relative;
+}
+.IdeaLeaderCard2:hover,
+.IdeaLeaderCard:hover {
+  box-shadow: 0px 3px 6px #00000038;
+}
+.IdeaLeaderCard > div > button {
+  border-radius: 27px 0px 0px 0px;
+  background-color: #a84266;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
