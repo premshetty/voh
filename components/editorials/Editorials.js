@@ -18,8 +18,8 @@ const Editorials = () => {
     return (
         <div>
             <Nav />
-            <div className='px-10 flex w-full mt-10'>
-                <div className='w-3/4'>
+            <div className='px-10  w-full flex justify-between mt-10'>
+                <div className='w-[65%] h-[483px]'>
                     <Carousel />
                 </div>
                 <Trending />

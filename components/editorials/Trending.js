@@ -8,8 +8,8 @@ const Card = ({ img, name, dep, date, btnclr }) => {
                 <h2 className='font-semibold text-[black] text-lg'>{name}</h2>
                 <p className='text-[#606060]'>{dep}</p>
                 <div className='flex justify-between w-[130%] items-center'>
-                    <button style={{ backgroundColor: btnclr }} className={`  px-5 h-8 text-white rounded-[5px]`}>Idea Leader</button>
-                    <p className='text-[#606060]'>{date}</p>
+                    <button style={{ backgroundColor: btnclr }} className={` text-sm px-5 h-8 text-white rounded-[5px]`}>Idea Leader</button>
+                    <p className='text-[#606060] text-xs'>{date}</p>
                 </div>
             </div>
         </div>

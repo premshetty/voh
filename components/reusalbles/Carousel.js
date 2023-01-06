@@ -1,34 +1,27 @@
 import React from 'react'
-import classes from './carousel.module.css'
-const Carousel = () => {
-    return (
-        <div id="slider" className={`${classes.carousel} ${classes.slide}`} data-ride="carousel">
-            <ol className={classes.carousel_indicators}>
-                <li data-target="#slider" data-slide-to="0" className="active"></li>
-                <li data-target="#slider" data-slide-to="1"></li>
-                <li data-target="#slider" data-slide-to="2"></li>
-                <li data-target="#slider" data-slide-to="3"></li>
-                <li data-target="#slider" data-slide-to="4"></li>
-            </ol>
+import { useState } from 'react'
 
-            <div className={classes.carousel_inner}>
-                <div className={`${classes.carousel_item} ${classes.active}`}>
-                    <img className="d-block w-100" src="http://via.placeholder.com/350x350/d8ddef/ffffff?text=header.jpg" />
-                </div>
-                <div className={classes.carousel_item}>
-                    <img className="d-block w-100" src="http://via.placeholder.com/350x350/a0a4b8/ffffff?text=slider2.jpg" />
-                </div>
-                <div className={classes.carousel_item}>
-                    <img className="d-block w-100" src="http://via.placeholder.com/350x350/7293a0/ffffff?text=slider3.jpg" />
-                </div>
-                <div className={classes.carousel_item}>
-                    <img className="d-block w-100" src="http://via.placeholder.com/350x350/45b69c/ffffff?text=slider4.jpeg" />
-                </div>
-                <div className={classes.carousel_item}>
-                    <img className="d-block w-100" src="http://via.placeholder.com/350x350/21d19f/ffffff?text=slider5.jpeg" />
-                </div>
+
+const elements = [
+    <img src="/persons/banner.jpg" className='h-full w-full' alt="" />,
+    <img src="/persons/brand_infocus.png" className='h-full w-full' alt="" />,
+    <img src="/persons/banner2.jpg" className='h-full w-full' alt="" />,
+]
+const Carousel = () => {
+    const [selected, setSelected] = useState(elements[0])
+
+    return (
+        <>
+            {selected}
+            <div className='flex gap-3 justify-center mt-10 '>
+                {elements.map(el => {
+                    return el === selected ?
+                        <p className='h-2 w-4 bg-head_text cursor-pointer rounded-full' onClick={() => setSelected(el)} key={el}></p>
+                        :
+                        <p className='h-2 w-4 opacity-30 bg-head_text cursor-pointer rounded-full' onClick={() => setSelected(el)} key={el}></p>
+                })}
             </div>
-        </div>
+        </>
     )
 }
 

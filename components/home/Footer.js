@@ -29,37 +29,35 @@ const Footer = () => {
                     <div className={footerlistclass} >
                         <h2 className='text-white font-bold'>Editorials</h2>
                         <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
+                        <p className='text-footer_para_text'>Brand in Focus </p>
+                        <p className='text-footer_para_text'>Article and Blog </p>
+                        <p className='text-footer_para_text'>News & PR </p>
                     </div>
                     <div className={footerlistclass}>
-                        <h2 className='text-white font-bold'>Editorials</h2>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
+                        <h2 className='text-white font-bold'>Events</h2>
+                        <p className='text-footer_para_text'>All Events </p>
+                        <p className='text-footer_para_text'>Public Health Awarness </p>
+                        <p className='text-footer_para_text'>Brand Solutions </p>
+                        <p className='text-footer_para_text'>FlagShip Events </p>
                     </div>
                     <div className={footerlistclass}>
-                        <h2 className='text-white font-bold'>Editorials</h2>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
+                        <h2 className='text-white font-bold'>VOH Tv</h2>
+                        <p className='text-footer_para_text'>Daily Broadcast </p>
+                        <p className='text-footer_para_text'>Voice of Change </p>
+                        <p className='text-footer_para_text'>The Big Idea </p>
                     </div>
                     <div className={footerlistclass}>
-                        <h2 className='text-white font-bold'>Editorials</h2>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
+                        <h2 className='text-white font-bold'>Collaborations</h2>
+                        <p className='text-footer_para_text'>Editorials </p>
+                        <p className='text-footer_para_text'>Events </p>
+                        <p className='text-footer_para_text'>Voh Tv </p>
                     </div>
                     <div className={footerlistclass}>
-                        <h2 className='text-white font-bold'>Editorials</h2>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Idea Leader </p>
+                        <h2 className='text-white font-bold'>More</h2>
+                        <p className='text-footer_para_text'>About Us </p>
+                        <p className='text-footer_para_text'>Contact Us </p>
+                        <p className='text-footer_para_text'>Meet the Team </p>
+                        <p className='text-footer_para_text'>Privacy Policy </p>
                     </div>
                 </div>
                 <div className='flex justify-between mt-10 w-full'>
