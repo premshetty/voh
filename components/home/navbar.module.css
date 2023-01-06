@@ -1,0 +1,9 @@
+.dropdown:hover .dropdown_menu {
+  display: block;
+  background-color: #ffffff;
+  padding: 5px 20px 5px 20px;
+}
+.footer h2,
+.footer p {
+  white-space: nowrap;
+}
