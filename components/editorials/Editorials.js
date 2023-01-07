@@ -3,7 +3,7 @@ import Carousel from '../reusalbles/Carousel'
 import classes from './editorial.module.css'
 import IdeaLeader from './IdeaLeader'
 import Trending from './Trending'
-const Nav = () => {
+export const Nav = () => {
     return (
         <div className={`${classes.shadow} flex gap-8 text-sm z-20 h-10 fixed top-16 w-full bg-white shadow-2xl mt-[1px] justify-center items-center`}>
             <p> All Editorial</p>

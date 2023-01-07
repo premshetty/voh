@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import classes from './editorial.module.css'
 
@@ -22,10 +23,12 @@ const Card = () => {
 const ArticleAndBlogs = () => {
     return (
         <div id='articleandblogs' className='px-10 w-full mt-10'>
-            <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#A25B5D]'>
-                <h2 className='font-bold text-xl'>Article & Blog</h2>
-                <img src="/icons/right.svg" className='h-4' alt="" />
-            </div>
+            <Link href='/'>
+                <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#A25B5D]'>
+                    <h2 className='font-bold text-xl'>Article & Blog</h2>
+                    <img src="/icons/right.svg" className='h-4' alt="" />
+                </div>
+            </Link>
             <div className={`flex gap-3 mt-10 ${classes.cardContainer} max-w-full `}>
                 <Card />
                 <Card />

@@ -20,10 +20,12 @@ const Card = () => {
 const IdeaLeader = () => {
     return (
         <div id='idealeader' className='px-10 w-full mt-32'>
-            <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]'>
-                <h2 className='font-bold text-xl'>Idea Leader</h2>
-                <Link href='/idealeader'> <img src="/icons/right.svg" className='h-4' alt="" /></Link>
-            </div>
+            <Link href='/idealeader'>
+                <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]'>
+                    <h2 className='font-bold text-xl'>Idea Leader</h2>
+                    <img src="/icons/right.svg" className='h-4' alt="" />
+                </div>
+            </Link>
             <div className={`flex gap-3 mt-10 ${classes.cardContainer} max-w-full overflow-scroll`}>
                 <Card />
                 <Card />
