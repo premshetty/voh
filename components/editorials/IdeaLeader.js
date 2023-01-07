@@ -19,7 +19,7 @@ const Card = () => {
 }
 const IdeaLeader = () => {
     return (
-        <div className='px-10 w-full mt-32'>
+        <div id='idealeader' className='px-10 w-full mt-32'>
             <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]'>
                 <h2 className='font-bold text-xl'>Idea Leader</h2>
                 <Link href='/idealeader'> <img src="/icons/right.svg" className='h-4' alt="" /></Link>
@@ -28,13 +28,7 @@ const IdeaLeader = () => {
                 <Card />
                 <Card />
                 <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+
             </div>
         </div>
     )

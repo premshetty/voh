@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import { useState } from 'react'
 
 
@@ -7,8 +8,23 @@ const elements = [
     <img src="/persons/brand_infocus.png" className='h-full w-full' alt="" />,
     <img src="/persons/banner2.jpg" className='h-full w-full' alt="" />,
 ]
+let initial = 0;
 const Carousel = () => {
-    const [selected, setSelected] = useState(elements[0])
+    const [selected, setSelected] = useState(elements[initial])
+    useEffect(() => {
+        const interval = setInterval(() => {
+            if (initial === 2) {
+                initial = -1
+            } else {
+                initial++
+                setSelected(elements[initial])
+            }
+        }, 2000);
+        return () => {
+            clearInterval(interval)
+        }
+    }, [selected])
+
 
     return (
         <>

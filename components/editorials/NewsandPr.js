@@ -3,7 +3,7 @@ import classes from './editorial.module.css'
 
 const Card = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard} h-[470px] min-w-[350px]`}>
+        <div className={`${classes.IdeaLeaderCard} h-[520px] min-w-[350px]`}>
             <img src="/persons/news.png" alt="" />
             <div className='px-5 flex flex-col gap-4 mt-3'>
 
@@ -17,7 +17,7 @@ const Card = () => {
 }
 const NewsandPr = () => {
     return (
-        <div className='px-10 w-full mt-10'>
+        <div id='newsandpr' className='px-10 w-full mt-10'>
             <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]'>
                 <h2 className='font-bold text-xl'>News & PR</h2>
                 <img src="/icons/right.svg" className='h-4' alt="" />
@@ -26,13 +26,7 @@ const NewsandPr = () => {
                 <Card />
                 <Card />
                 <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+
             </div>
         </div>
     )

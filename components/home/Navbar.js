@@ -17,7 +17,7 @@ const Navbar = () => {
         },
     }
     return (
-        <div className='flex justify-between w-full shadow-lg items-center h-16 px-10 text-head_text font-[500]'>
+        <div className='flex fixed z-50 top-0 justify-between w-full shadow-lg items-center min-h-[64px] bg-white px-10 text-head_text font-[500]'>
             <div className='flex flex-col justify-between items-center'>
                 <img className='w-5 h-auto' src="/icons/home.svg" alt="" />
                 <p>Home</p>
@@ -27,7 +27,6 @@ const Navbar = () => {
                 <NavbarDropdown name={navbarlists.editorials.name} list={navbarlists.editorials.list} />
                 <img width={100} src='/logo_nav.png' />
                 <NavbarDropdown name={navbarlists.vohtv.name} list={navbarlists.vohtv.list} />
-
                 <p>startup ecosystem</p>
             </div>
             <div className='flex gap-3 items-center'>

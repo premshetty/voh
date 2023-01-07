@@ -6,10 +6,13 @@
   width: 32%;
   height: 483px;
 }
-.shadow p {
+.shadow a {
   cursor: pointer;
 }
-.shadow p:hover {
+.shadow a:active {
+  color: #489fc5;
+}
+.shadow a:hover {
   color: #489fc5;
 }
 .cardContainer::-webkit-scrollbar {
@@ -22,7 +25,7 @@
 }
 .IdeaLeaderCard2:hover,
 .IdeaLeaderCard:hover {
-  box-shadow: 0px 3px 6px #00000038;
+  box-shadow: 2px 11px 5px 6px #00000038;
 }
 .IdeaLeaderCard > div > button {
   border-radius: 27px 0px 0px 0px;

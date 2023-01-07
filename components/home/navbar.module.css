@@ -2,6 +2,9 @@
   display: block;
   background-color: #ffffff;
   padding: 5px 20px 5px 20px;
+  position: fixed;
+  z-index: 600;
+  box-shadow: 2px 2px 2px 2px white;
 }
 .footer h2,
 .footer p {
