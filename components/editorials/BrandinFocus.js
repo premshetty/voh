@@ -17,7 +17,7 @@ const Card = () => {
 const BrandinFocus = () => {
     return (
         <div id='brandinfocus' className='px-10 w-full mt-10'>
-            <Link href='/' >
+            <Link href='/brandinfocus' >
 
                 <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#51B1A2]'>
                     <h2 className='font-bold text-xl'>Brand In Focus</h2>

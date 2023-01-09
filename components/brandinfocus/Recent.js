@@ -1,0 +1,38 @@
+import React from 'react'
+import classes from '../editorials/editorial.module.css'
+
+const Card = () => {
+    return (<div className={`${classes.IdeaLeaderCard2} flex flex-col  h-[430px] w-[430px]`}>
+        <img src="/persons/brand_infocus.png" alt="" />
+        <div className='px-5 flex flex-col  gap-8 mt-3'>
+            <p>Cloudphysician is adding the touch of cloud-tech to</p>
+            <p className='text-[#606060] text-sm'>01 Nov, 2022</p>
+            <button className='h-10 w-32 bg-button_cta font-bold text-white'>Read more</button>
+        </div>
+    </div>)
+}
+const Recent = () => {
+    return (
+        <div>
+            <h2 className='font-bold text-xl mt-20'>Recent</h2>
+            <div className='mt-20 grid grid-cols-3 gap-y-8 justify-items-stretch'>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+            </div>
+            <div className='flex items-center w-full gap-4 mt-10 justify-center'>
+                <div className='h-1 bg-[#51B1A2] flex-grow'></div>
+                <button className='h-10 w-36 bg-[#51B1A2] font-bold text-white'>View more</button>
+                <div className='h-1 bg-[#51B1A2]  flex-grow'></div>
+            </div>
+        </div>
+    )
+}
+
+export default Recent
