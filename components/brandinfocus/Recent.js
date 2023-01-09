@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from '../editorials/editorial.module.css'
+import SeeMore from '../reusalbles/SeeMore'
 
 const Card = () => {
     return (<div className={`${classes.IdeaLeaderCard2} flex flex-col  h-[430px] w-[430px]`}>
@@ -26,11 +27,8 @@ const Recent = () => {
                 <Card />
                 <Card />
             </div>
-            <div className='flex items-center w-full gap-4 mt-10 justify-center'>
-                <div className='h-1 bg-[#51B1A2] flex-grow'></div>
-                <button className='h-10 w-36 bg-[#51B1A2] font-bold text-white'>View more</button>
-                <div className='h-1 bg-[#51B1A2]  flex-grow'></div>
-            </div>
+            <SeeMore bg='#51B1A2' />
+
         </div>
     )
 }
