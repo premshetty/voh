@@ -29,7 +29,7 @@ const ArticleAndBlogs = () => {
                     <img src="/icons/right.svg" className='h-4' alt="" />
                 </div>
             </Link>
-            <div className={`flex gap-3 mt-10 ${classes.cardContainer} max-w-full `}>
+            <div className={`flex gap-3 mt-10 ${classes.cardContainer} max-w-full overflow-scroll`}>
                 <Card />
                 <Card />
             </div>

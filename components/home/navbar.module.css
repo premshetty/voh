@@ -1,7 +1,7 @@
 .dropdown:hover .dropdown_menu {
   display: block;
   background-color: #ffffff;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 40px 5px 40px;
   position: fixed;
   z-index: 600;
   box-shadow: 2px 2px 2px 2px white;
@@ -9,4 +9,30 @@
 .footer h2,
 .footer p {
   white-space: nowrap;
+}
+.dropdown:hover .dropdown_menu_with_list2 {
+  display: flex;
+  white-space: nowrap;
+  gap: 30px;
+  background-color: #ffffff;
+  padding: 5px 40px 5px 40px;
+  position: fixed;
+  z-index: 600;
+  box-shadow: 2px 2px 2px 2px white;
+}
+.mobile_menu {
+  left: -200%;
+  transition: 0.5s;
+}
+
+.mobile_menu.active {
+  left: 0;
+}
+
+.mobile_menu ul li ul {
+  display: none;
+}
+
+.mobile_menu ul li:hover ul {
+  display: block;
 }

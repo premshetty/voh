@@ -6,11 +6,11 @@ import Trending from './Trending'
 export const Nav = () => {
     return (
         <div className={`${classes.shadow} flex gap-8 text-sm z-20 h-10 fixed top-16 w-full bg-white shadow-2xl mt-[1px] justify-center items-center`}>
-            <p> All Editorial</p>
-            <a href='#idealeader'> Idea Leader</a>
-            <a href='#brandinfocus'> Brand In Focus</a>
-            <a href='#articleandblogs'> Article and Blog</a>
-            <a href='#newsandpr'> News and PR</a>
+            <a href='/editorials'> All Editorial</a>
+            <a href='/editorials#idealeader'> Idea Leader</a>
+            <a href='/editorials#brandinfocus'> Brand In Focus</a>
+            <a href='/editorials#articleandblogs'> Article and Blog</a>
+            <a href='/editorials#newsandpr'> News and PR</a>
         </div>
     )
 }
@@ -18,8 +18,8 @@ const Editorials = () => {
     return (
         <div>
             <Nav />
-            <div className='px-10  w-full flex justify-between mt-32'>
-                <div className='w-[65%] h-[483px]'>
+            <div className='px-10 flex-col md:flex-row  w-full flex justify-between mt-32'>
+                <div className=' w-full  md:w-[65%]  h-[300px] md:h-[483px]'>
                     <Carousel />
                 </div>
                 <Trending />

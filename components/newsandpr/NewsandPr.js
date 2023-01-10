@@ -50,10 +50,10 @@ const NewsandPr = () => {
                 <div className='mt-10'>
                     <h2 className='font-bold text-xl'>Treading</h2>
                     <div className='flex mt-10 justify-between items-baseline'>
-                        <img src="/persons/news.png" className='h-[180px] w-auto ' alt="" />
-                        <img src="/persons/news.png" className='h-[180px] w-auto ' alt="" />
-                        <img src="/persons/news.png" className='h-[180px] w-auto ' alt="" />
-                        <img src="/persons/news.png" className='h-[180px] w-auto ' alt="" />
+                        <img src="/persons/news.png" className={`${classes.IdeaLeaderCard2} h-[180px] w-auto `} alt="" />
+                        <img src="/persons/news.png" className={`${classes.IdeaLeaderCard2} h-[180px] w-auto `} alt="" />
+                        <img src="/persons/news.png" className={`${classes.IdeaLeaderCard2} h-[180px] w-auto `} alt="" />
+                        <img src="/persons/news.png" className={`${classes.IdeaLeaderCard2} h-[180px] w-auto `} alt="" />
                     </div>
                 </div>
             </div>
