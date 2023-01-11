@@ -1,89 +1,162 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import classes from './navbar.module.css'
 const Navrbar2 = () => {
-    let mobile_icon = document && document?.getElementById('mobile-icon');
-    let mobile_menu = document && document?.getElementById('mobile-menu');
-    let hamburger_icon = document && document?.querySelector("#mobile-icon i");
+    const [show, setShow] = useState(false)
+    let mobile_icon;
+    let mobile_menu;
+    let hamburger_icon;
     useEffect(() => {
-        first
-
-        return () => {
-            second
-        }
-    }, [third])
+        mobile_icon = document && document?.getElementById('mobile-icon');
+        mobile_menu = document && document?.getElementById('mobile-menu');
+        hamburger_icon = document && document?.querySelector("#mobile-icon i");
+    }, [])
 
 
 
     function openCloseMenu() {
-        mobile_menu.classList.toggle('block');
-        mobile_menu.classList.toggle('active');
+        setShow(!show)
     }
 
 
-    mobile_icon.addEventListener('click', openCloseMenu);
 
 
     return (
-        <header className="h-20 bg-white">
-            <nav className="relative px-2 py-4">
+        <header className="h-16 bg-white fixed top-0 z-[100] w-full shadow-md">
+            <nav className="relative  py-4">
 
-                <div className="container mx-auto flex justify-between items-center">
-                    <img src="https://avrasys.hu/logoipsum-logo-54.svg" alt="Tailwindcss Navigation" />
+                <div className="flex px-5 md:px-10 justify-between items-center">
+                    <a className='hidden md:flex flex-col justify-between items-center' href='/'> <img className='w-5 h-auto' src="/icons/home.svg" alt="" />Home</a>
+                    <img src="/logo_nav.png" className=' block md:hidden h-10' alt="Tailwindcss Navigation" />
+                    <ul className="hidden md:flex items-center space-x-16">
 
-                    <ul className="hidden md:flex space-x-6">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">News</a></li>
                         <li className="flex relative group">
-                            <a href="#" className="mr-1">Services</a>
-                            <i className="fa-solid fa-chevron-down fa-2xs pt-3"></i>
+                            <a href="#" className="mr-1 flex items-center gap-[6px] font-[500]">Events <img className='h-3 mt-1' src="/icons/down.svg" alt="" /></a>
+                            <ul className="absolute bg-white py-6 px-10 w-auto top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                                <div className='flex whitespace-nowrap gap-10'>
+                                    <ul>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">ALL EVENTS</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">PUBLIC HEALTH AWARNESS</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">BRAND SOLUTION</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">FLAGSHIP EVENTS</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">EVENT1</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">EVENT2</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">EVENT3</a></li>
 
-                            <ul className="absolute bg-white p-3 w-52 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
-                                <li className="text-sm hover:bg-slate-100 leading-8"><a href="#">Webdesign</a></li>
-                                <li className="text-sm hover:bg-slate-100 leading-8"><a href="#">Digital marketing</a></li>
-                                <li className="text-sm hover:bg-slate-100 leading-8"><a href="#">SEO</a></li>
-                                <li className="text-sm hover:bg-slate-100 leading-8"><a href="#">Ad campaigns</a></li>
-                                <li className="text-sm hover:bg-slate-100 leading-8"><a href="#">UX Design</a></li>
+                                    </ul>
+                                </div>
+
                             </ul>
 
                         </li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li className="flex relative group">
+                            <a href="#" className="mr-1 flex items-center gap-[6px] font-[500]">Editorials <img className='h-3 mt-1' src="/icons/down.svg" alt="" /></a>
+                            <ul className="absolute bg-white  py-6 px-10 w-auto whitespace-nowrap top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/idealeader">IDEA LEADER</a></li>
+                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/brandinfocus">BRAND IN FOCUS</a></li>
+                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/newsandpr">NEWS AND PR</a></li>
+                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/articleandblogs">ARTICLE AND BLOG</a></li>
+                            </ul>
+
+                        </li>
+                        <img src="/logo_nav.png" className='hidden md:block h-10' alt="Tailwindcss Navigation" />
+                        <li className="flex relative group">
+                            <a href="#" className="mr-1 flex items-center gap-[6px] font-[500]">VOH TV <img className='h-3 mt-1' src="/icons/down.svg" alt="" /></a>
+                            <ul className="absolute bg-white  py-6 px-10 w-auto whitespace-nowrap top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">Daily Broadcast</a></li>
+                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">Voice of Change</a></li>
+                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">The Big idea</a></li>
+
+                            </ul>
+
+                        </li>
+                        <li><a className='font-[500]' href="#">Startup ecosystem</a></li>
+
                     </ul>
 
-                    <a href="#" className="bg-red-400 px-5 py-1 rounded-3xl hover:bg-red-500 text-white hidden md:flex" role="button">Sign In</a>
+                    <div className='hidden gap-3 items-center md:flex'>
+                        <div className='flex flex-col justify-between items-center'>
+                            <img className='w-5 h-auto' src="/icons/search.svg" alt="" />
+                            <p>Search</p>
+                        </div>
+                        <div className='flex flex-col justify-between items-center'>
+                            <img className='w-5 h-auto' src="/icons/user.svg" alt="" />
+                            <p>Login</p>
+                        </div>
 
-                    <button id="mobile-icon" className="md:hidden">
-                        fghrdhtgd
-                    </button>
+                    </div>
+
+
+                    <img id="mobile-icon" onClick={openCloseMenu} className={` h-5 md:hidden`} src="/icons/menu.svg" alt="" />
+
 
                 </div>
 
-                <div className="md:hidden flex justify-center mt-3 w-full">
-                    <div id="mobile-menu" className={`${classes.mobile_menu} absolute top-23 w-full`}>
-                        <ul className="bg-gray-100 shadow-lg leading-9 font-bold h-screen">
-                            <li className="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="https://google.com" className="block pl-7">Home</a></li>
-                            <li className="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" className="block pl-7">News</a></li>
-                            <li className="border-b-2 border-white hover:bg-red-400 hover:text-white">
-                                <a href="#" className="block pl-11">Services <i className="fa-solid fa-chevron-down fa-2xs pt-4"></i></a>
+                <div className="md:hidden flex  mt-3 w-full">
+                    <div id="mobile-menu" className={show ? `active block w-[100vw] bg-white z-[200]` : `${classes.mobile_menu} absolute top-23 w-full`}>
+                        <ul className="bg-gray-100 w-screen p-10 -mt-2 bg-white shadow-lg leading-9 font-bold h-screen">
+                            <li className="flex relative group">
+                                <a href="#" className="mr-1 flex items-center gap-[6px] font-[500]">Events <img className='h-3 mt-1' src="/icons/down.svg" alt="" /></a>
+                                <ul className="absolute bg-white py-6 px-10 w-auto top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                                    <div className='flex whitespace-nowrap gap-10'>
+                                        <ul>
+                                            <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">ALL EVENTS</a></li>
+                                            <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">PUBLIC HEALTH AWARNESS</a></li>
+                                            <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">BRAND SOLUTION</a></li>
+                                            <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">FLAGSHIP EVENTS</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">EVENT1</a></li>
+                                            <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">EVENT2</a></li>
+                                            <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">EVENT3</a></li>
 
+                                        </ul>
+                                    </div>
 
-                                <ul className="bg-white text-gray-800 w-full">
-                                    <li className="text-sm leading-8 font-normal hover:bg-slate-200"><a className="block pl-16" href="#">Webdesign</a></li>
-                                    <li className="text-sm leading-8 font-normal hover:bg-slate-200"><a className="block pl-16" href="#">Digital marketing</a></li>
-                                    <li className="text-sm leading-8 font-normal hover:bg-slate-200"><a className="block pl-16" href="#">SEO</a></li>
-                                    <li className="text-sm leading-8 font-normal hover:bg-slate-200"><a className="block pl-16" href="#">Ad campaigns</a></li>
-                                    <li className="text-sm leading-8 font-normal hover:bg-slate-200"><a className="block pl-16" href="#">UX Design</a></li>
                                 </ul>
 
                             </li>
-                            <li className="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" className="block pl-7">About</a></li>
-                            <li className="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" className="block pl-7">Contact</a></li>
+                            <li className="flex relative group">
+                                <a href="#" className="mr-1 flex items-center gap-[6px] font-[500]">Editorials <img className='h-3 mt-1' src="/icons/down.svg" alt="" /></a>
+                                <ul className="absolute bg-white  py-6 px-10 w-auto whitespace-nowrap top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/idealeader">IDEA LEADER</a></li>
+                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/brandinfocus">BRAND IN FOCUS</a></li>
+                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/newsandpr">NEWS AND PR</a></li>
+                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/articleandblogs">ARTICLE AND BLOG</a></li>
+                                </ul>
+
+                            </li>
+                            <img src="/logo_nav.png" className='hidden md:block h-10' alt="Tailwindcss Navigation" />
+                            <li className="flex relative group">
+                                <a href="#" className="mr-1 flex items-center gap-[6px] font-[500]">VOH TV <img className='h-3 mt-1' src="/icons/down.svg" alt="" /></a>
+                                <ul className="absolute bg-white  py-6 px-10 w-auto whitespace-nowrap top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">Daily Broadcast</a></li>
+                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">Voice of Change</a></li>
+                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">The Big idea</a></li>
+
+                                </ul>
+
+                            </li>
+                            <li><a className='font-[500]' href="#">Startup ecosystem</a></li>
+                            <div className='flex gap-3 items-center justify-between mt-10 md:hidden'>
+                                <div className='flex flex-col justify-between items-center'>
+                                    <img className='w-5 h-auto' src="/icons/search.svg" alt="" />
+                                    <p>Search</p>
+                                </div>
+                                <div className='flex flex-col justify-between items-center'>
+                                    <img className='w-5 h-auto' src="/icons/user.svg" alt="" />
+                                    <p>Login</p>
+                                </div>
+
+                            </div>
                         </ul>
                     </div>
                 </div>
 
             </nav>
         </header>
+
     )
 }
 

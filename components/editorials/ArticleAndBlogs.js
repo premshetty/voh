@@ -22,8 +22,8 @@ const Card = () => {
 }
 const ArticleAndBlogs = () => {
     return (
-        <div id='articleandblogs' className='px-10 w-full mt-10'>
-            <Link href='/'>
+        <div id='articleandblogs' className='px-3 md:px-10 w-full mt-10'>
+            <Link href='/articleandblogs'>
                 <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#A25B5D]'>
                     <h2 className='font-bold text-xl'>Article & Blog</h2>
                     <img src="/icons/right.svg" className='h-4' alt="" />

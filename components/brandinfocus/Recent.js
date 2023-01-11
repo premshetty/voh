@@ -3,7 +3,7 @@ import classes from '../editorials/editorial.module.css'
 import SeeMore from '../reusalbles/SeeMore'
 
 const Card = () => {
-    return (<div className={`${classes.IdeaLeaderCard2} flex flex-col  h-[430px] w-[430px]`}>
+    return (<div className={`${classes.IdeaLeaderCard2} flex flex-col  h-[430px] min-w-[300px] md:w-[430px]`}>
         <img src="/persons/brand_infocus.png" alt="" />
         <div className='px-5 flex flex-col  gap-8 mt-3'>
             <p>Cloudphysician is adding the touch of cloud-tech to</p>
@@ -16,7 +16,7 @@ const Recent = () => {
     return (
         <div>
             <h2 className='font-bold text-xl mt-20'>Recent</h2>
-            <div className='mt-20 grid grid-cols-3 gap-y-8 justify-items-stretch'>
+            <div className='mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 justify-items-stretch overflow-x-scroll'>
                 <Card />
                 <Card />
                 <Card />
