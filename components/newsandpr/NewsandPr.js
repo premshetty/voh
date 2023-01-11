@@ -16,13 +16,13 @@ export const Card1 = () => {
 }
 export const Card2 = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard2} flex gap-5 relative h-[330px]  md:w-[700px] pr-10 p-5`}>
+        <div className={`${classes.IdeaLeaderCard2} flex gap-5 flex-col-reverse sm:flex-row relative sm:h-[330px]  md:w-[700px] pr-10 p-5`}>
             <div className=' flex flex-col gap-4 '>
                 <h2 className='font-bold text-[20px] md:text-[28px]'>No dearth of platelets, beds for dengue patients in UP: Dy CM Pathak ..</h2>
-                <p className='text-base'>Uttar Pradesh Deputy Chief Minister Brajesh Pathak on Thursday claimed there is no dearth of platelets and  </p>
+                <p className=' sm:text-base'>Uttar Pradesh Deputy Chief Minister Brajesh Pathak on Thursday claimed there is no dearth of platelets and  </p>
                 <p className='text-[#606060] text-sm'>12 Oct, 2022</p>
             </div>
-            <img className='h-full w-[150px] md:w-[250px] rounded-2xl object-cover' src="/persons/news.png" alt="" />
+            <img className=' h-auto sm:h-full w-full  sm:w-[150px] md:w-[250px] rounded-2xl object-cover' src="/persons/news.png" alt="" />
             <button className='h-10 w-32 bg-button_cta absolute rounded-tr-2xl bottom-0 left-0 font-bold text-white'>Read more</button>
         </div>
     )
