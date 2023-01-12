@@ -1,8 +1,9 @@
 import React from 'react'
 import { Nav } from '../editorials/Editorials'
 import CarouselWithimagePreview from '../reusalbles/CarouselWithimagePreview'
-import classes from '../editorials/editorial.module.css'
+
 const Card = ({ img }) => {
+
     return (
         <div className={` relative h-auto md:h-[250px] p-3 w-full md:min-w-[350px] border-b-[1px] border-[#00000049]`}>
             <div className='flex flex-col md:flex-row gap-4'>
@@ -30,7 +31,7 @@ const IdeaLeader = () => {
                 </div>
 
                 <CarouselWithimagePreview />
-                <div className='flex flex-col mfd:flex-row justify-between w-full'>
+                <div className='flex flex-col md:flex-row justify-between w-full'>
                     <div className='md:w-[48%]'>
                         <div className='flex mt-20 justify-between w-full items-center border-b-[5px] pb-2 border-[#489FC5]'>
                             <h2 className='font-bold text-xl'>See more stories of the Idea Leader</h2>

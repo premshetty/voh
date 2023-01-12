@@ -2,7 +2,7 @@ import React from 'react'
 import { Nav } from '../editorials/Editorials'
 import BrandsFeatured from './BrandsFeatured'
 import Recent from './Recent'
-
+import classes from '../editorials/editorial.module.css'
 const BrandInFocus = () => {
     return (
         <div className=''>
@@ -13,7 +13,7 @@ const BrandInFocus = () => {
                 </div>
                 <div className='flex md:flex-row gap-6 md:gap-0 flex-col w-full justify-between h-[100vh] mt-10'>
                     <div className='w-full md:w-[30%] h-full flex justify-center items-center border '>ADVERTISMENT</div>
-                    <div className='w-full md:w-[68%] h-full flex flex-col  justify-between items-center'>
+                    <div className={` ${classes.IdeaLeaderCard2} w-full md:w-[68%] h-full flex flex-col  justify-between items-center`}>
                         <img className='w-full' src="/persons/brand_infocus.png" alt="" />
                         <p className='text-[16px] text-[#2C2A2A] text-center'>Cloudphysician is adding the touch of cloud-tech to augment care and amplify access. Cloudphysician is adding the touch of cloud-tech to augment care and amplify access. Cloudphysician is adding the touch of cloud-tech to augment care and amplify access. Cloudphysician is adding the touch of cloud-tech to augment care and amplify access.</p>
                         <p className='text-[#606060] text-sm'>01 Nov, 2022</p>

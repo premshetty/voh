@@ -6,7 +6,7 @@ const BrandsFeatured = () => {
 
     const brands = [
         "/persons/featured_brand.png",
-        "/persons/brand_infocus.png",
+        "/persons/featured_brand.png",
         "/persons/featured_brand.png",
         "/persons/featured_brand.png",
         "/persons/featured_brand.png",

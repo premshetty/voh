@@ -1,7 +1,7 @@
 import classes from '../editorials/editorial.module.css'
 export const Card1 = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard2} h-[430px] md:w-[430px] p-5`}>
+        <div className={`${classes.IdeaLeaderCard2} h-[380px] md:w-[430px] p-5`}>
             <img className='h-[150px] w-full object-cover' src="/persons/banner2.jpg" alt="" />
             <div className=' flex flex-col gap-4 mt-5'>
                 <h2 className='font-bold text-xl'>Sexual Health: Under Rated</h2>

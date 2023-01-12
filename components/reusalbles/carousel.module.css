@@ -16,3 +16,6 @@
 .carousel_indicators {
   bottom: -50px;
 }
+.carouselcontainer::-webkit-scrollbar {
+  width: 0;
+}

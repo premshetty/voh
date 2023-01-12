@@ -23,6 +23,7 @@
 .IdeaLeaderCard2 {
   border: 5px solid #f7f7f7;
   position: relative;
+  margin-bottom: 10px;
 }
 .IdeaLeaderCard2:hover,
 .IdeaLeaderCard:hover {
@@ -33,7 +34,7 @@
   background-color: #a84266;
   color: white;
   position: absolute;
-  bottom: 0;
+  bottom: 2px;
   right: 0;
 }
 .navcontainer::-webkit-scrollbar {
