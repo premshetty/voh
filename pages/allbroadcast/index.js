@@ -1,12 +1,11 @@
 import React from 'react'
-import AllBrodcast from '../../components/allBroadCast/AllBrodcast'
-
+import AllBradcast from "../../components/allBroadCast/AllBrodcast";
 const index = () => {
   return (
     <div>
-      <AllBrodcast/>
+      <AllBradcast/>
     </div>
   )
 }
 
-export default index
+export default index;
