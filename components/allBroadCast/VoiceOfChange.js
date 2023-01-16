@@ -3,18 +3,17 @@ const AllCard = () => {
   const ConstantData = [{}];
   return (
     <div
-      className="relative"
+      className="relative "
       style={{
         width: "270px",
-        height: "380px",
+        height: "430px",
       }}
     >
       <div
-        className="absolute w-full"
+        className=" w-full p-2 "
         style={{
           border: "5px solid #AD565B",
-
-          height: "70%",
+          height: "80%",
           borderRadius: "30px",
         }}
       >
@@ -25,24 +24,18 @@ const AllCard = () => {
       </div>
       <div>
         <img
-          className="w-full"
-          src="./allbroadcast/pic1st.png"
-          style={{
-            borderRadius: "30px",
-          }}
+          className="left-2 top-[80px] -z-10 absolute w-full mx-auto"
+          src="/allbroadcast/pic1st.png"
+
         />
       </div>
-      <div className="absolute" style={{ bottom: "24%" }}>
+      <div className="absolute bottom-[56px]" >
         <img
-          src="./allbroadcast/Path.svg"
-          style={{
-            left: "3%",
-            bottom: "10%",
-            width: "70%",
-          }}
+          src="/allbroadcast/Path.svg"
+          className="h-20"
         />
       </div>
-      <div className="absolute" style={{ bottom: "25%", lineHeight: "100%" }}>
+      <div className="absolute pl-3 bottom-[56px] text-white" >
         <h4 style={{ fontSize: "18px", fontWeight: "700" }}>
           Dr. Shubham Singh
         </h4>

@@ -4,7 +4,7 @@ import classes from './editorial.module.css'
 
 const Card = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard2} h-[430px] min-w-full  md:min-w-[350px]`}>
+        <div className={`${classes.IdeaLeaderCard2} md:h-[430px] min-w-full h-[463px]  md:min-w-[350px]`}>
             <img src="/persons/brand_infocus.png" alt="" />
             <div className='px-5 flex flex-col gap-4 mt-3'>
                 <p>Cloudphysician is adding the touch of cloud-tech to augment care and amplify access.</p>
@@ -14,13 +14,13 @@ const Card = () => {
         </div>
     )
 }
-const BrandinFocus = () => {
+const BrandinFocus = ({ name, padding }) => {
     return (
-        <div id='brandinfocus' className='px-3 md:px-10 w-full mt-10'>
+        <div id='brandinfocus' className={`${padding}  w-full mt-10`}>
             <Link href='/brandinfocus' >
 
                 <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#51B1A2]'>
-                    <h2 className='font-bold text-xl'>Brand In Focus</h2>
+                    <h2 className='font-bold text-xl'>{name}</h2>
                     <img src="/icons/right.svg" className='h-4' alt="" />
                 </div>
             </Link>

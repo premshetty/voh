@@ -64,9 +64,9 @@ const Navrbar2 = () => {
                         <li className="flex relative group">
                             <a href="#" className="mr-1 flex items-center gap-[6px] font-[500]">VOH TV <img className='h-3 mt-1' src="/icons/down.svg" alt="" /></a>
                             <ul className="absolute bg-white  py-6 px-10 w-auto whitespace-nowrap top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
-                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">Daily Broadcast</a></li>
-                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">Voice of Change</a></li>
-                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">The Big idea</a></li>
+                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/allbroadcast/dailybroadcast">Daily Broadcast</a></li>
+                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/allbroadcast/voiceofchange">Voice of Change</a></li>
+                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/allbroadcast/thebigidea">The Big idea</a></li>
 
                             </ul>
 
@@ -131,9 +131,9 @@ const Navrbar2 = () => {
                             <li className="flex relative group">
                                 <a href="#" className="mr-1 flex items-center gap-[6px] font-[500]">VOH TV <img className='h-3 mt-1' src="/icons/down.svg" alt="" /></a>
                                 <ul className="absolute bg-white  py-6 px-10 w-auto whitespace-nowrap top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
-                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">Daily Broadcast</a></li>
-                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">Voice of Change</a></li>
-                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="#">The Big idea</a></li>
+                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/allbroadcast/dailybroadcast">Daily Broadcast</a></li>
+                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/allbroadcast/voiceofchange">Voice of Change</a></li>
+                                    <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500]' href="/allbroadcast/thebigidea">The Big idea</a></li>
 
                                 </ul>
 

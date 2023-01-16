@@ -6,7 +6,7 @@ import NewsandPr from '../../components/editorials/NewsandPr'
 
 const index = () => {
     return (
-        <div><Editorials /><BrandinFocus /><ArticleAndBlogs /><NewsandPr /></div>
+        <div><Editorials /><BrandinFocus name='Brand In Focus' padding='px-3 md:px-10' /><ArticleAndBlogs /><NewsandPr /></div>
     )
 }
 

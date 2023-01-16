@@ -24,7 +24,7 @@ const Footer = () => {
                         <img src="/icons/yt.svg" className='w-6' alt="" />
                     </div>
                 </div>
-                <div className='md:flex grid grid-cols-2 flex-wrap md:flex-row align-top mt-10 gap-8'>
+                <div className='md:flex grid grid-cols-2 flex-wrap md:flex-nowrap md:flex-row align-top mt-10 gap-8'>
                     <p className='text-footer_para_text col-span-2 md:w-[500px]'>Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access. Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access. Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access.</p>
                     <div className={footerlistclass} >
                         <h2 className='text-white font-bold'>Editorials</h2>

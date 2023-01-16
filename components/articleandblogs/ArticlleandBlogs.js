@@ -7,7 +7,7 @@ const ArticlleandBlogs = () => {
     return (
         <>
             <Nav />
-            <div className='mt-32 px-3 md:px-10'>
+            <div className='mt-32 px-3 md:px-10 max-w-full'>
                 <div className='border-b-[5px] pb-2 border-[#A25B5D]'>
                     <h2 className='font-bold text-xl'>Article & Blog</h2>
                 </div>
@@ -35,8 +35,8 @@ const ArticlleandBlogs = () => {
                         <Card4 />
                     </div>
                     <div className='flex flex-col gap-5 md:gap-0 h-full justify-between'>
-                        <AdverstismentBlock height='530px' width='600px' />
-                        <AdverstismentBlock height='530px' width='600px' />
+                        <AdverstismentBlock height='530px' width='500px' />
+                        <AdverstismentBlock height='530px' width='500px' />
                     </div>
                 </div>
                 <SeeMore bg='#A25B5D' />

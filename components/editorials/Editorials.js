@@ -5,7 +5,7 @@ import IdeaLeader from './IdeaLeader'
 import Trending from './Trending'
 export const Nav = () => {
     return (
-        <div className={`${classes.shadow} ${classes.navcontainer} pl-5   overflow-x-scroll flex gap-8 text-sm z-20 h-10 fixed top-16 w-full bg-white shadow-2xl mt-[1px] justify-start md:justify-center items-center`}>
+        <div className={`${classes.shadow} ${classes.navcontainer} pl-5   overflow-x-scroll flex gap-8 text-sm z-20 h-10 fixed top-[63px] w-full bg-white shadow-2xl mt-[1px] justify-start md:justify-center items-center`}>
             <a className='whitespace-nowrap text-xs md:text-sm' href='/editorials'> All Editorial</a>
             <a className='whitespace-nowrap text-xs md:text-sm' href='/editorials#idealeader'> Idea Leader</a>
             <a className='whitespace-nowrap text-xs md:text-sm' href='/editorials#brandinfocus'> Brand In Focus</a>

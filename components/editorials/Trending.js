@@ -20,15 +20,15 @@ const Trending = () => {
         <div className={`${classes.trendingnow} p-4 w-full md:w-[32%] mt-20 md:mt-0`}>
             <h1 className='text-[black] font-bold text-2xl'>Trending Now</h1>
             <div className={` ${classes.cardContainer} mt-8 flex flex-col gap-2 overflow-scroll h-[400px]`} >
-                <Card img='persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#5F9DC1' />
-                <Card img='persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#5F9DC1' />
-                <Card img='persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#5F9DC1' />
-                <Card img='persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#51B1A2' />
-                <Card img='persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#51B1A2' />
-                <Card img='persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#51B1A2' />
-                <Card img='persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#A25B5D' />
-                <Card img='persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#A25B5D' />
-                <Card img='persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#A25B5D' />
+                <Card img='/persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#5F9DC1' />
+                <Card img='/persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#5F9DC1' />
+                <Card img='/persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#5F9DC1' />
+                <Card img='/persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#51B1A2' />
+                <Card img='/persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#51B1A2' />
+                <Card img='/persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#51B1A2' />
+                <Card img='/persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#A25B5D' />
+                <Card img='/persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#A25B5D' />
+                <Card img='/persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#A25B5D' />
             </div>
         </div>
     )
