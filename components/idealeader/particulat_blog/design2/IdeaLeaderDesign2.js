@@ -6,11 +6,11 @@ const IdeaLeaderDesign2 = () => {
         <div className='w-full px-3 md:px-10 mt-24'>
             <div className='md:w-[70%] border-[2px] border-[#0000005d] flex justify-center h-24 font-bold text-xl mx-auto items-center'>ADVERTISMENT</div>
             <div className='mt-10 flex gap-10 md:flex-row flex-col items-start'>
-                <div className='flex flex-col gap-10  max-w-[20%] '>
+                <div className='flex flex-col gap-16  max-w-[20%] '>
                     <Events />
-                    <img src="/award.png" className='w-full md:max-w-[400px] mt-20' alt="" />
-                    <div className=' w-full h-[700px] flex justify-center items-center border rounded-md font-bold mt-20'>ADVERTISMENT</div>
-                    <div className=' w-full h-[400px] flex justify-center items-center border rounded-md font-bold mt-20'>ADVERTISMENT</div>
+                    <img src="/award.png" className='w-full md:max-w-[400px] ' alt="" />
+                    <div className=' w-full h-[700px] flex justify-center items-center border rounded-md font-bold '>ADVERTISMENT</div>
+                    <div className=' w-full h-[700px] flex justify-center items-center border rounded-md font-bold '>ADVERTISMENT</div>
                 </div>
                 <div className='flex flex-col gap-10 max-w-[50%]'>
                     <div className='flex flex-col w-full md:flex-row justify-between'>
@@ -67,13 +67,24 @@ const IdeaLeaderDesign2 = () => {
 
                             </div>
                             <img src="/persons/plant.png" className='w-full' alt="" />
+                            <div className='mt-10 flex flex-col gap-6 '>
+                                <h1 className='text-[32px]  leading-12 font-[600]'>
+                                    VOH Healthcare Infrastructure Summit '22 | A CALL FOR CHANGE
+                                </h1>
+
+                                <p className='text-[#707070] text-base'> VOH Healthcare Infrastructure Summit '22 | A CALL FOR CHANGE</p>
+                                <p className='text-[#707070] text-base'> Care is changing,                        and it is time to take a fresh look at the ecosystem infrastructure that sustains and powers it. Voice of Healthcare brings together leading figures to initiate much-needed dialogues and expedient disruptions to achieve that goal.</p>
+                                <p className='text-[#707070] text-base'> From population and public health to innovations that raise efficiency and reduce the cost to transformations in diagnostics to the evolving rural landscape to patient safety to accreditations to next-generation facilities to the future of healthcare infrastructure, we aim to cover what's significant, what's next, and everything in between.</p>
+                                <p className='text-[#707070] text-base'> Knowledge catalyser, vision compass, momentum accelerator, action roadmap, collaboration launchpad, wakeup alarm clock – VOH Healthcare Infrastructure Summit '22 will play many parts. And point us in directions that matter.</p>
+                                <p className='text-[#707070] text-base'> Come, play your role. Be part of presentations, panels, Q&As, networking and more. And let's usher the change healthcare deserves… together.</p>
+
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className='max-w-[25%]'>
+                <div className='flex flex-col gap-16 max-w-[25%]'>
                     <Trending />
-
-                    <div className=' w-full   h-[700px] flex justify-center items-center border rounded-md font-bold mt-20'>ADVERTISMENT</div>
+                    <div className=' w-full   h-[700px] flex justify-center items-center border rounded-md font-bold '>ADVERTISMENT</div>
                     <div className=' w-full   h-[700px] flex justify-center items-center border rounded-md font-bold mt-20'>ADVERTISMENT</div>
                 </div>
             </div>

@@ -17,7 +17,7 @@ const Card = ({ img, name, dep, date, btnclr }) => {
 }
 const Trending = () => {
     return (
-        <div className={`${classes.trendingnow} p-4 w-full md:w-[32%] mt-20 md:mt-0`}>
+        <div className={`${classes.trendingnow} h-[483px] p-4 w-full md:w-[32%] mt-20 md:mt-0`}>
             <h1 className='text-[black] font-bold text-2xl'>Trending Now</h1>
             <div className={` ${classes.cardContainer} mt-8 flex flex-col gap-2 overflow-scroll h-[400px]`} >
                 <Card img='/persons/visaka.png' name='Vishaka Goyal' dep='Clinicspots' date='01 Nov, 2022' btnclr='#5F9DC1' />
