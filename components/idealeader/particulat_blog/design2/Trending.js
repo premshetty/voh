@@ -2,16 +2,15 @@ import React from 'react'
 import classes from '../../../editorials/editorial.module.css'
 const Card = ({ img, name, dep, date, btnclr }) => {
     return (
-        <div className='w-full min-h-[7rem]  border-b-[1px] border-[#707070] border-opacity-40 flex'>
-            <img src={img} className='h-[50px] md:h-[90px]' alt="" />
-            <div className='flex flex-col justify-around ml-5 h-[70px] md:h-[100px]'>
-                <h2 className='font-semibold text-[black] text-base md:text-lg'>{name}</h2>
+        <div className='w-full h-auto pb-6  border-b-[1px] border-[#707070] border-opacity-40 flex flex-col gap-3'>
+            <img src={img} className='w-full' alt="" />
+            <h2 className='font-semibold text-[black] text-base md:text-lg'>{name}</h2>
+            <div className='flex justify-between  items-center'>
                 <p className='text-[#606060] text-xs md:text-sm'>{dep}</p>
-                <div className='flex justify-between w-[130%] items-center'>
-                    <button style={{ backgroundColor: btnclr }} className={` text-xs md:text-sm px-2 h-5 md:px-5 md:h-8 text-white rounded-[5px]`}>Idea Leader</button>
-                    <p className='text-[#606060] text-xs'>{date}</p>
-                </div>
+                <p className='text-[#606060] text-xs'>{date}</p>
             </div>
+            <button style={{ backgroundColor: btnclr }} className={` text-xs md:text-sm px-2 h-5 w-[120px] md:px-5 md:h-8 text-white rounded-[5px]`}>Idea Leader</button>
+
         </div>
     )
 }

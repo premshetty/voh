@@ -7,9 +7,9 @@ const Card = ({ img, name, para, date, btnclr }) => {
             <div className='w-full   relative flex'>
                 <button className='h-4 rounded-r-full w-auto pl-1 text-[8px] pr-3 bg-[#AD565B] absolute text-white'>Upcoming </button>
                 <div className='min-w-[80px] max-h-[80px] bg-[#489FC5] flex justify-center items-center text-white font-bold text-lg text-center'>28 Jan 2023</div>
-                <h2 className='ml-2 font-semibold whitespace-pre-wrap text-[black] text-base md:text-lg'>{name}</h2>
+                <h2 className='ml-2 font-semibold whitespace-pre-wrap text-[black] text-base md:text-[16px]]'>{name}</h2>
             </div>
-            <div className='flex justify-between w-full items-center'>
+            <div className='flex justify-between w-full items-center mt-1'>
                 <p className='text-[#7C7C7C] text-xs flex gap-1 items-center'><img className='h-5' src="/icons/location.svg" alt="" />Mumbai</p>
                 <button className={`border whitespace-nowrap border-[#A84266] text-xs md:text-sm px-2 h-5 md:px-5 md:h-8 text-[#A84266] rounded-[15px]`}>Register Now</button>
             </div>
@@ -20,7 +20,7 @@ const Events = () => {
     return (
         <div className={`${classes.trendingnow} p-4 w-full min-h-[850px] `}>
             <h1 className='text-[black] font-bold text-2xl'>Events</h1>
-            <div className={` ${classes.cardContainer} mt-8 flex flex-col gap-2 overflow-scroll h-[720px]`} >
+            <div className={` ${classes.cardContainer} mt-8 flex flex-col gap-2 overflow-scroll h-[780px]`} >
                 <Card img='/persons/visaka.png'
                     name='Healthcare Leadership and Management Days '
                     para='Leadership, management essentials,'
