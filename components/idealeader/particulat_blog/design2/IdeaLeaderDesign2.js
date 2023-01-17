@@ -6,13 +6,13 @@ const IdeaLeaderDesign2 = () => {
         <div className='w-full px-3 md:px-10 mt-24'>
             <div className='md:w-[70%] border-[2px] border-[#0000005d] flex justify-center h-24 font-bold text-xl mx-auto items-center'>ADVERTISMENT</div>
             <div className='mt-10 flex gap-10 md:flex-row flex-col items-start'>
-                <div className='flex flex-col gap-16  max-w-[20%] '>
+                <div className='flex flex-col gap-5 md:gap-16  md:max-w-[20%] '>
                     <Events />
                     <img src="/award.png" className='w-full md:max-w-[400px] ' alt="" />
                     <div className=' w-full h-[700px] flex justify-center items-center border rounded-md font-bold '>ADVERTISMENT</div>
                     <div className=' w-full h-[700px] flex justify-center items-center border rounded-md font-bold '>ADVERTISMENT</div>
                 </div>
-                <div className='flex flex-col gap-10 max-w-[50%]'>
+                <div className='flex flex-col gap-10 md:max-w-[50%]'>
                     <div className='flex flex-col w-full md:flex-row justify-between'>
                         <div className='  flex flex-col gap-8'>
                             <h1 className='font-bold text-xl md:text-2xl'>Vishaka Goyal</h1>
@@ -37,7 +37,7 @@ const IdeaLeaderDesign2 = () => {
                                 </div>
                                 1000 Claps
                             </div>
-                            <div className='mt-14 flex gap-20 items-center'>
+                            <div className='mt-3 md:mt-14 flex gap-3 md:gap-20 flex-wrap justify-center md:justify-start items-center'>
                                 <p className='h-10 pt-2 px-5  rounded-lg border border-[#6D9BBE]'>Idea Leader</p>
                                 <p className='h-10 pt-2 px-5  rounded-lg border border-[#6D9BBE]'>Idea Leader</p>
                                 <p className='h-10 pt-2 px-5  rounded-lg border border-[#6D9BBE]'>Idea Leader</p>
@@ -82,7 +82,7 @@ const IdeaLeaderDesign2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col gap-16 max-w-[25%]'>
+                <div className='flex flex-col gap-5 md:gap-16 w-full md:max-w-[25%]'>
                     <Trending />
                     <div className=' w-full   h-[700px] flex justify-center items-center border rounded-md font-bold '>ADVERTISMENT</div>
                     <div className=' w-full   h-[700px] flex justify-center items-center border rounded-md font-bold mt-20'>ADVERTISMENT</div>

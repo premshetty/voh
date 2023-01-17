@@ -34,7 +34,7 @@ const IdealeaderId = () => {
                         </div>
                         1000 Claps
                     </div>
-                    <div className='mt-14 flex gap-20 items-center'>
+                    <div className='mt-3 md:mt-14 flex gap-3 flex-wrap md:gap-20 items-center'>
                         <p className='h-10 pt-2 px-5  rounded-lg border border-[#6D9BBE]'>Idea Leader</p>
                         <p className='h-10 pt-2 px-5  rounded-lg border border-[#6D9BBE]'>Idea Leader</p>
                         <p className='h-10 pt-2 px-5  rounded-lg border border-[#6D9BBE]'>Idea Leader</p>
