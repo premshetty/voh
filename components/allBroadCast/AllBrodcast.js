@@ -7,7 +7,7 @@ import DailyBroadcast from "./DailyBroadcast";
 import Link from "next/link";
 export const Nav = () => {
   return (
-    <div className={`${classes.shadow} ${classes.navcontainer} pl-5   overflow-x-scroll flex gap-8 text-sm z-20 h-10 fixed top-[63px] w-full bg-white shadow-2xl mt-[1px] justify-start md:justify-center items-center`}>
+    <div className={`hidden ${classes.shadow} ${classes.navcontainer} pl-5   overflow-x-scroll md:flex gap-8 text-sm z-20 h-10 fixed top-[63px] w-full bg-white shadow-2xl mt-[1px] justify-start md:justify-center items-center`}>
       <a className='whitespace-nowrap text-xs md:text-sm' href='/allbroadcast'> All Videos</a>
       <a className='whitespace-nowrap text-xs md:text-sm' href='/allbroadcast#dailybroadcast'> Daily Broadcast</a>
       <a className='whitespace-nowrap text-xs md:text-sm' href='/allbroadcast#voiceofchanges'> Voice of Change</a>
@@ -23,18 +23,13 @@ const AllBrodcasr = () => {
         <div style={{ marginTop: "100px" }}>
           <Carousel />
         </div>
-        <div id='dailybroadcast' className="flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]">
-          <h2 className="font-bold text-xl">Daily Broadcast</h2>
-          <img src="/icons/right.svg" className="h-4" alt="" />
-        </div>
-        <div
-          className="flex justify-center"
-          style={{
-            gap: "20px",
-            marginTop: "40px",
-            marginBottom: "100px",
-            flexWrap: "wrap",
-          }}
+        <Link href='/allbroadcast/dailybroadcast'>
+          <div id='dailybroadcast' className="flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]">
+            <h2 className="font-bold text-xl">Daily Broadcast</h2>
+            <img src="/icons/right.svg" className="h-4" alt="" />
+          </div>
+        </Link>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'
         >
           {[1, 2, 3, 4].map((item) => (
             <img
@@ -44,18 +39,12 @@ const AllBrodcasr = () => {
           ))}
         </div>
         <Link href='/allbroadcast/voiceofchange'>
-          <div id="voiceofchanges" className="flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]">
+          <div id="voiceofchanges" className="flex mt-10 justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]">
             <h2 className="font-bold text-xl">Voice of change</h2>
             <img src="/icons/right.svg" className="h-4" alt="" />
           </div>
         </Link>
-        <div
-          className="flex justify-center"
-          style={{
-            flexWrap: "wrap",
-            gap: "20px",
-            marginTop: "50px",
-          }}
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'
         >
           {[1, 2, 3, 4].map((item) => (
             <AllCard />
@@ -66,13 +55,7 @@ const AllBrodcasr = () => {
             <h2 className="font-bold text-xl">The Big Idea</h2>
           </div>
         </Link>
-        <div
-          className="flex justify-center"
-          style={{
-            gap: "20px",
-            marginTop: "50px",
-            flexWrap: "wrap",
-          }}
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'
         >
           {[1, 2, 3, 4].map(() => (
             <img src="/allbroadcast/cardImg1.png" style={{ width: "265px" }} />

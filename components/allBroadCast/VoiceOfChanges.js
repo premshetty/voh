@@ -21,13 +21,7 @@ const VoiceOfChanges = () => {
                             dialogues and expedient disruptions to achieve that goal.
                         </h4>
                     </div>
-                    <div
-                        className="flex justify-center"
-                        style={{
-                            flexWrap: "wrap",
-                            gap: "20px",
-                            marginTop: "50px",
-                        }}
+                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'
                     >
                         {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
                             <AllCard />

@@ -20,19 +20,11 @@ const DailyBroadcast = () => {
                             dialogues and expedient disruptions to achieve that goal.
                         </h4>
                     </div>
-                    <div
-                        className="flex justify-center"
-                        style={{
-                            gap: "20px",
-                            marginTop: "40px",
-                            marginBottom: "100px",
-                            flexWrap: "wrap",
-                        }}
+                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'
                     >
-                        {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-                            <img
+                        {[1, 2, 3, 4, 5, 6, 7, 8].map(() => (
+                            <img className='w-full sm:w-[256px]'
                                 src="/allbroadcast/cardIBroad1.png"
-                                style={{ width: "265px" }}
                             />
                         ))}
                     </div>
