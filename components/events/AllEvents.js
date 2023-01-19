@@ -14,7 +14,7 @@ export const Nav = () => {
         </div>
     )
 }
-const mainCard = <div className={` ${classes.IdeaLeaderCard2} flex flex-col gap-2 border border-[#00000028] pb-3`}>
+export const MainCard = () => <div className={` ${classes.IdeaLeaderCard2} flex flex-col gap-2 border border-[#00000028] pb-3`}>
     <img src="/event_banner.png" alt="" />
     <div className='w-full items-center py-2 flex justify-between px-3'>
         <p className='font-bold text-lg'>October 19 , 2022</p>
@@ -24,7 +24,7 @@ const mainCard = <div className={` ${classes.IdeaLeaderCard2} flex flex-col gap-
         </div>
     </div>
 </div>
-const PublicAwarnessCard = () => {
+export const PublicAwarnessCard = () => {
     return (
         <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[450px] relative border-[4px] border-[#489FC5!important]`}>
             <p className='h-[150px]  pl-4 pt-4 w-1/2 text-[#489FC5] text-[40px] font-bold'>
@@ -94,7 +94,7 @@ const FlagshipEventCard = () => {
 const AllEvents = () => {
     return (
         <div className='px-3 md:px-10 '>
-            {mainCard}
+            <MainCard />
             <div id='idealeader' className=' w-full mt-10'>
                 <Link href='/events/publichealthawarness'>
                     <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]'>
