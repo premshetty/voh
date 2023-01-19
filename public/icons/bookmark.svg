@@ -1,3 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30.299" height="48.314" viewBox="0 0 30.299 48.314">
-  <path id="Icon_ionic-ios-bookmark" data-name="Icon ionic-ios-bookmark" d="M9,6.975V49.723a.45.45,0,0,0,.72.36l13.139-10.35a.911.911,0,0,1,1.08,0l13.139,10.35a.45.45,0,0,0,.72-.36V6.975a3.6,3.6,0,0,0-3.6-3.6H12.6A3.6,3.6,0,0,0,9,6.975Z" transform="translate(-8.25 -2.625)" fill="none" stroke="#000" stroke-width="1.5"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="30.299" height="48.314" viewBox="0 0 30.299 48.314"><path id="Icon_ionic-ios-bookmark" fill="none" stroke="#000" stroke-width="1.5" d="M9,6.975V49.723a.45.45,0,0,0,.72.36l13.139-10.35a.911.911,0,0,1,1.08,0l13.139,10.35a.45.45,0,0,0,.72-.36V6.975a3.6,3.6,0,0,0-3.6-3.6H12.6A3.6,3.6,0,0,0,9,6.975Z" data-name="Icon ionic-ios-bookmark" transform="translate(-8.25 -2.625)"/></svg>

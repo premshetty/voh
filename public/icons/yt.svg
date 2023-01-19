@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
-  <g id="Group_246" data-name="Group 246" transform="translate(-0.315 0)">
-    <path id="Icon_ionic-logo-youtube" data-name="Icon ionic-logo-youtube" d="M22.495,8.251a3.438,3.438,0,0,0-3.273-3.591c-2.45-.115-4.949-.159-7.5-.159h-.8c-2.548,0-5.051.044-7.5.159a3.446,3.446,0,0,0-3.269,3.6C.044,9.834,0,11.409,0,12.983s.044,3.149.15,4.728a3.45,3.45,0,0,0,3.269,3.6c2.574.119,5.215.172,7.9.168s5.321-.044,7.9-.168a3.45,3.45,0,0,0,3.273-3.6c.106-1.579.155-3.154.15-4.732S22.6,9.83,22.495,8.251ZM9.155,17.322V8.631l6.413,4.343Z" transform="translate(11.943 10.008)" fill="#fff" opacity="0.6"/>
-    <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(0.315 0)" fill="none" stroke="#fbfbfb" stroke-width="1" opacity="0.6">
-      <circle cx="23" cy="23" r="23" stroke="none"/>
-      <circle cx="23" cy="23" r="22.5" fill="none"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46"><g id="Group_246" data-name="Group 246" transform="translate(-0.315 0)"><path id="Icon_ionic-logo-youtube" fill="#fff" d="M22.495,8.251a3.438,3.438,0,0,0-3.273-3.591c-2.45-.115-4.949-.159-7.5-.159h-.8c-2.548,0-5.051.044-7.5.159a3.446,3.446,0,0,0-3.269,3.6C.044,9.834,0,11.409,0,12.983s.044,3.149.15,4.728a3.45,3.45,0,0,0,3.269,3.6c2.574.119,5.215.172,7.9.168s5.321-.044,7.9-.168a3.45,3.45,0,0,0,3.273-3.6c.106-1.579.155-3.154.15-4.732S22.6,9.83,22.495,8.251ZM9.155,17.322V8.631l6.413,4.343Z" data-name="Icon ionic-logo-youtube" opacity=".6" transform="translate(11.943 10.008)"/><g id="Ellipse_13" fill="none" stroke="#fbfbfb" stroke-width="1" data-name="Ellipse 13" opacity=".6" transform="translate(0.315 0)"><circle cx="23" cy="23" r="23" stroke="none"/><circle cx="23" cy="23" r="22.5" fill="none"/></g></g></svg>
