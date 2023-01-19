@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 import classes from './navbar.module.css'
 const Navrbar2 = ({ childs }) => {
@@ -26,7 +27,7 @@ const Navrbar2 = ({ childs }) => {
 
                 <div className="flex px-5 md:px-10 justify-between items-center">
                     <a className='hidden md:flex flex-col justify-between items-center' href='/'> <img className='w-5 h-auto' src="/icons/home.svg" alt="" />Home</a>
-                    <img src="/logo_nav.png" className=' block md:hidden h-10' alt="Tailwindcss Navigation" />
+                    <Link href='/' >  <img src="/logo_nav.png" className=' block md:hidden h-10' alt="Tailwindcss Navigation" /></Link>
                     <ul className="hidden md:flex items-center space-x-16">
 
                         <li className="flex relative group">
@@ -60,7 +61,7 @@ const Navrbar2 = ({ childs }) => {
                             </ul>
 
                         </li>
-                        <img src="/logo_nav.png" className='hidden md:block h-10' alt="Tailwindcss Navigation" />
+                        <Link href='/'>  <img src="/logo_nav.png" className='hidden md:block h-10' alt="Tailwindcss Navigation" /></Link>
                         <li className="flex relative group">
                             <a href="#" className="mr-1 flex items-center gap-[6px] font-[500] text-[black]">VOH TV <img className='h-3 mt-1' src="/icons/down.svg" alt="" /></a>
                             <ul className="absolute bg-white  py-6 px-10 w-auto whitespace-nowrap top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">

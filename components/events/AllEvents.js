@@ -4,13 +4,13 @@ import classes from '../editorials/editorial.module.css'
 export const Nav = () => {
     return (
         <div className={`${classes.shadow} ${classes.navcontainer} pl-5   overflow-x-scroll md:flex gap-8 text-sm z-20 h-10 hidden md:fixed top-[63px] w-full bg-white shadow-2xl mt-[1px] justify-start md:justify-center items-center`}>
-            <a className='whitespace-nowrap text-xs md:text-sm' href='/editorials'> All Events</a>
-            <a className='whitespace-nowrap text-xs md:text-sm' href='/editorials#idealeader'> Public Health Awarness</a>
-            <a className='whitespace-nowrap text-xs md:text-sm' href='/editorials#brandinfocus'>Brand Solutions</a>
-            <a className='whitespace-nowrap text-xs md:text-sm' href='/editorials#articleandblogs'> FlagShip Events</a>
-            <a className='whitespace-nowrap text-xs md:text-sm' href='/editorials#newsandpr'> Event 1</a>
-            <a className='whitespace-nowrap text-xs md:text-sm' href='/editorials#newsandpr'> Event 2</a>
-            <a className='whitespace-nowrap text-xs md:text-sm' href='/editorials#newsandpr'> Event 3</a>
+            <a className='whitespace-nowrap text-xs md:text-sm' href='/events'> All Events</a>
+            <a className='whitespace-nowrap text-xs md:text-sm' href='/events#publichealthawarness'> Public Health Awarness</a>
+            <a className='whitespace-nowrap text-xs md:text-sm' href='/events#brandsolution'>Brand Solutions</a>
+            <a className='whitespace-nowrap text-xs md:text-sm' href='/events#flagshipevent'> FlagShip Events</a>
+            <a className='whitespace-nowrap text-xs md:text-sm' href='/events#'> Event 1</a>
+            <a className='whitespace-nowrap text-xs md:text-sm' href='/events#'> Event 2</a>
+            <a className='whitespace-nowrap text-xs md:text-sm' href='/events#'> Event 3</a>
         </div>
     )
 }
@@ -45,7 +45,7 @@ export const PublicAwarnessCard = () => {
         </div>
     )
 }
-const BrandSolutionCard = () => {
+export const BrandSolutionCard = () => {
     return (
         <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[530px] relative border-[4px] `}>
             <img src="/brandsolution_card.png" className='h-[230px] w-full object-cover' alt="" />
@@ -68,7 +68,7 @@ const BrandSolutionCard = () => {
         </div>
     )
 }
-const FlagshipEventCard = () => {
+export const FlagshipEventCard = () => {
     return (
         <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[500px] relative border-[4px] `}>
             <div className='relative  h-[200px] w-full  object-cover' alt="" >
@@ -95,7 +95,7 @@ const AllEvents = () => {
     return (
         <div className='px-3 md:px-10 '>
             <MainCard />
-            <div id='idealeader' className=' w-full mt-10'>
+            <div id='publichealthawarness' className=' w-full mt-10'>
                 <Link href='/events/publichealthawarness'>
                     <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]'>
                         <h2 className='font-bold text-xl'>Public Health Awareness</h2>
@@ -109,8 +109,8 @@ const AllEvents = () => {
                 <PublicAwarnessCard />
 
             </div>
-            <div id='idealeader' className=' w-full mt-10'>
-                <Link href='/events/publichealthawarness'>
+            <div id='brandsolution' className=' w-full mt-10'>
+                <Link href='/events/brandsolution'>
                     <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#51B1A2]'>
                         <h2 className='font-bold text-xl'>Brand Solution</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
@@ -123,8 +123,8 @@ const AllEvents = () => {
                 <BrandSolutionCard />
 
             </div>
-            <div id='idealeader' className=' w-full mt-10'>
-                <Link href='/events/publichealthawarness'>
+            <div id='flagshipevent' className=' w-full mt-10'>
+                <Link href='/events/flagshipevents'>
                     <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#A25B5D]'>
                         <h2 className='font-bold text-xl'>FlagShip Events</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
