@@ -7,8 +7,13 @@
   box-shadow: 2px 2px 2px 2px white;
 }
 .footer h2,
-.footer p {
+.footer a {
   white-space: nowrap;
+}
+.footer a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
 }
 .dropdown:hover .dropdown_menu_with_list2 {
   display: flex;

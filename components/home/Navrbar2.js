@@ -35,10 +35,10 @@ const Navrbar2 = ({ childs }) => {
                             <ul className="absolute bg-white py-6 px-10 w-auto top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
                                 <div className='flex whitespace-nowrap gap-10'>
                                     <ul>
-                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="#">ALL EVENTS</a></li>
-                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="#">PUBLIC HEALTH AWARNESS</a></li>
-                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="#">BRAND SOLUTION</a></li>
-                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="#">FLAGSHIP EVENTS</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/events">ALL EVENTS</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/events#publichealthawarness">PUBLIC HEALTH AWARNESS</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/events#brandsolution">BRAND SOLUTION</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/events#flagshipevent">FLAGSHIP EVENTS</a></li>
                                     </ul>
                                     <ul>
                                         <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="#">EVENT1</a></li>

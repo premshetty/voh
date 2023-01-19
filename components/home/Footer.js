@@ -28,36 +28,36 @@ const Footer = () => {
                     <p className='text-footer_para_text col-span-2 md:w-[500px]'>Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access. Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access. Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access.</p>
                     <div className={footerlistclass} >
                         <h2 className='text-white font-bold'>Editorials</h2>
-                        <p className='text-footer_para_text'>Idea Leader </p>
-                        <p className='text-footer_para_text'>Brand in Focus </p>
-                        <p className='text-footer_para_text'>Article and Blog </p>
-                        <p className='text-footer_para_text'>News & PR </p>
+                        <a href='/idealeader' className='text-footer_para_text'>Idea Leader </a>
+                        <a href='/brandinfocus' className='text-footer_para_text'>Brand in Focus </a>
+                        <a href='/articleandblog' className='text-footer_para_text'>Article and Blog </a>
+                        <a href='/newsandpr' className='text-footer_para_text'>News & PR </a>
                     </div>
                     <div className={footerlistclass}>
                         <h2 className='text-white font-bold'>Events</h2>
-                        <p className='text-footer_para_text'>All Events </p>
-                        <p className='text-footer_para_text'>Public Health Awarness </p>
-                        <p className='text-footer_para_text'>Brand Solutions </p>
-                        <p className='text-footer_para_text'>FlagShip Events </p>
+                        <a href='/events' className='text-footer_para_text'>All Events </a>
+                        <a href='/events#publichealthawarness' className='text-footer_para_text'>Public Health Awarness </a>
+                        <a href='/events#brandsolution' className='text-footer_para_text'>Brand Solutions </a>
+                        <a href='/events#flagshipevent' className='text-footer_para_text'>FlagShip Events </a>
                     </div>
                     <div className={footerlistclass}>
                         <h2 className='text-white font-bold'>VOH Tv</h2>
-                        <p className='text-footer_para_text'>Daily Broadcast </p>
-                        <p className='text-footer_para_text'>Voice of Change </p>
-                        <p className='text-footer_para_text'>The Big Idea </p>
+                        <a href='/allbroadcast#dailybroadcast' className='text-footer_para_text'>Daily Broadcast </a>
+                        <a href='/allbroadcast#voiceofchanges' className='text-footer_para_text'>Voice of Change </a>
+                        <a href='/allbroadcast#thebigidea' className='text-footer_para_text'>The Big Idea </a>
                     </div>
                     <div className={footerlistclass}>
                         <h2 className='text-white font-bold'>Collaborations</h2>
-                        <p className='text-footer_para_text'>Editorials </p>
-                        <p className='text-footer_para_text'>Events </p>
-                        <p className='text-footer_para_text'>Voh Tv </p>
+                        <a href='/editorials' className='text-footer_para_text'>Editorials </a>
+                        <a href='/events' className='text-footer_para_text'>Events </a>
+                        <a href='/allbroadcast' className='text-footer_para_text'>Voh Tv </a>
                     </div>
                     <div className={footerlistclass}>
                         <h2 className='text-white font-bold'>More</h2>
-                        <p className='text-footer_para_text'>About Us </p>
-                        <p className='text-footer_para_text'>Contact Us </p>
-                        <p className='text-footer_para_text'>Meet the Team </p>
-                        <p className='text-footer_para_text'>Privacy Policy </p>
+                        <a href='/' className='text-footer_para_text'>About Us </a>
+                        <a href='/' className='text-footer_para_text'>Contact Us </a>
+                        <a href='/' className='text-footer_para_text'>Meet the Team </a>
+                        <a href='/' className='text-footer_para_text'>Privacy Policy </a>
                     </div>
                 </div>
                 <div className=' flex flex-col md:flex md:flex-row md:justify-between mt-10 w-full'>
