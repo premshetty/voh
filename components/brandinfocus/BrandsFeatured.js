@@ -34,7 +34,7 @@ const BrandsFeatured = () => {
             <div className={` mt-10 h-[150px]  relative`}>
                 <img className='absolute z-10 top-[48%] left-0  cursor-pointer' onClick={decreaseHandler} src="/icons/icon_left.svg" alt="" />
                 <img className='absolute top-[48%] right-0 cursor-pointer' onClick={increaseHandler} src="/icons/icon_right.svg" alt="" />
-                <div id='Brandcontainer' className={`${classes.cardContainer} flex gap-20 items-center my-10 mr-4  overflow-x-scroll px-10`}>
+                <div id='Brandcontainer' className={`${classes.cardContainer} flex gap-20 items-center my-10 mr-4 md:overflow-x-hidden overflow-x-scroll px-10`}>
                     {brands.map(brand => <img key={brand} className='h-[150px]' src={brand} alt="" />)}
                 </div>
             </div>

@@ -16,7 +16,7 @@ const Recent = () => {
     return (
         <div>
             <h2 className='font-bold text-xl mt-20'>Recent</h2>
-            <div className='mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 justify-items-stretch overflow-x-scroll'>
+            <div className='mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 justify-items-stretch  md:overflow-x-hidden overflow-x-scroll'>
                 <Card />
                 <Card />
                 <Card />
