@@ -1,12 +1,10 @@
+import Home from '../components/home/Home'
 
-import Carousel from '../components/home/Carousel'
 
 const index = () => {
   return (
-    <div>
-
-      <Carousel />
-
+    <div className="mt-20 px-3 md:px-10">
+      <Home />
     </div>
   )
 }

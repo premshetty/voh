@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import classes from './editorial.module.css'
 
-const Card = () => {
+export const NewsandprCard = () => {
     return (
         <div className={`${classes.IdeaLeaderCard} h-[520px] min-w-[350px]`}>
             <img src="/persons/news.png" alt="" />
@@ -26,10 +26,10 @@ const NewsandPr = () => {
                 </div>
             </Link>
             <div className={`flex gap-3 mt-10 ${classes.cardContainer} max-w-full overflow-scroll`}>
-                <Card />
-                <Card />
-                <Card />
-
+                <NewsandprCard />
+                <NewsandprCard />
+                <NewsandprCard />
+                <NewsandprCard />
             </div>
         </div>
     )

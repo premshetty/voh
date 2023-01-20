@@ -3,8 +3,10 @@ import Navrbar2 from '../components/home/Navrbar2'
 import Footer from '../components/home/Footer'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
+import BasicModal from '../components/reusalbles/Modal'
 function MyApp({ Component, pageProps }) {
   const [child, setChild] = useState('')
+  const [open, setOpen] = useState(false)
   const router = useRouter()
 
   const editorials = <div className='min-h-[200px] col-span-2'>
@@ -53,9 +55,23 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     setChild(routes[router.pathname])
   }, [])
+  let counter = 0;
+
+  useEffect(() => {
+    document.getElementsByTagName('body')[0].onscroll = function () {
+      if (counter > 1 && counter < 3) {
+        setOpen(true)
+
+      }
+      counter++
+
+    };
+  }, [])
+
 
   return (<>
     <Navrbar2 childs={child} />
+    <BasicModal openstatus={open} />
     <Component {...pageProps} />
     <Footer />
   </>)

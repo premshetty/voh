@@ -20,7 +20,7 @@ const Events = () => {
     return (
         <div className={`${classes.trendingnow} p-4 w-full  mt-20 min-h-[850px] `}>
             <h1 className='text-[black] font-bold text-2xl'>Events</h1>
-            <div className={` ${classes.cardContainer} mt-8 flex flex-col gap-2 overflow-scroll h-[720px]`} >
+            <div className={` ${classes.cardContainer} mt-8 flex flex-col gap-2 overflow-scroll h-[780px]`} >
                 <Card img='/persons/visaka.png'
                     name='Healthcare Leadership and '
                     para='Leadership, management essentials,'

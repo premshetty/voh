@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import classes from './editorial.module.css'
 
-const Card = () => {
+export const IdealeaderCard = () => {
     return (
         <div className={`${classes.IdeaLeaderCard} h-[500px] min-w-full  md:min-w-[350px]`}>
             <img src="/persons/idea_lead_card.png" alt="" />
@@ -27,9 +27,9 @@ const IdeaLeader = () => {
                 </div>
             </Link>
             <div className={`flex gap-3 mt-10 mb-10  ${classes.cardContainer} max-w-full overflow-scroll`}>
-                <Card />
-                <Card />
-                <Card />
+                <IdealeaderCard />
+                <IdealeaderCard />
+                <IdealeaderCard />
 
             </div>
         </div>

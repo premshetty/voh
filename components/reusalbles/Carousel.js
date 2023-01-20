@@ -3,13 +3,13 @@ import { useEffect } from 'react'
 import { useState } from 'react'
 
 
-const elements = [
-    <img src="/persons/banner.jpg" className='h-full w-full object-cover' alt="" />,
-    <img src="/persons/brand_infocus.png" className='h-full w-full object-cover' alt="" />,
-    <img src="/persons/banner2.jpg" className='h-full w-full object-cover' alt="" />,
-]
-let initial = 0;
-const Carousel = () => {
+const Carousel = ({ height, img1, img2, img3 }) => {
+    const elements = [
+        <img style={height ? { height: height } : ''} src={img1} className='h-full w-full object-cover' alt="" />,
+        <img style={height ? { height: height } : ''} src={img2} className='h-full w-full object-cover' alt="" />,
+        <img style={height ? { height: height } : ''} src={img3} className='h-full w-full object-cover' alt="" />,
+    ]
+    let initial = 0;
     const [selected, setSelected] = useState(elements[initial])
     useEffect(() => {
         const interval = setInterval(() => {
