@@ -6,7 +6,7 @@ import { FlagshipEventCard, MainCard } from './AllEvents'
 const FlagshipEvent = () => {
     return (
         <>
-            <MainCard />
+            <MainCard img="/event_banner.png" date='October 19 , 2022' addon={false} />
             <div id='idealeader' className=' w-full mt-10'>
                 <Link href='/events/flagshipevents'>
                     <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#A25B5D]'>

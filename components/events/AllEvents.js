@@ -14,13 +14,16 @@ export const Nav = () => {
         </div>
     )
 }
-export const MainCard = () => <div className={` ${classes.IdeaLeaderCard2} flex flex-col gap-2 border border-[#00000028] pb-3`}>
-    <img src="/event_banner.png" alt="" />
+export const MainCard = ({ img, date, addon }) => <div className={` ${classes.IdeaLeaderCard2} flex flex-col gap-2 border border-[#00000028] pb-3`}>
+    <img src={img} alt="" />
     <div className='w-full items-center py-2 flex justify-between px-3'>
-        <p className='font-bold text-lg'>October 19 , 2022</p>
+        <p className='font-bold text-lg'>{date}</p>
         <div className='flex items-center gap-2'>
-            <p className='font-bold text-lg'>View details</p>
-            <img className='h-4' src="/icons/right.svg" alt="" />
+            {addon ? <img src="/icons/sharewhite.svg" className='h-8 w-8 rounded-full p-2 mr-4 mt-1 bg-footer_color' alt="" /> : <>
+                <p className='font-bold text-lg'>View details</p>
+                <img className='h-4' src="/icons/right.svg" alt="" />
+            </>
+            }
         </div>
     </div>
 </div>
@@ -94,7 +97,7 @@ export const FlagshipEventCard = () => {
 const AllEvents = () => {
     return (
         <div className='px-3 md:px-10 '>
-            <MainCard />
+            <MainCard img="/event_banner.png" date='October 19 , 2022' addon={false} />
             <div id='publichealthawarness' className=' w-full mt-10'>
                 <Link href='/events/publichealthawarness'>
                     <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]'>
