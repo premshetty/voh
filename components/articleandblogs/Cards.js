@@ -44,9 +44,9 @@ export const Card3 = () => {
         </div>
     )
 }
-export const Card4 = () => {
+export const BlogCard4 = ({ bg }) => {
     return (
-        <div className={`${classes.IdeaLeaderCard2} md:h-[350px] items-center md:items-start flex-col-reverse md:flex-row flex md:w-[650px] p-5`}>
+        <div style={{ backgroundColor: bg }} className={`${classes.IdeaLeaderCard2} md:h-[350px] items-center md:items-start flex-col-reverse md:flex-row flex min-w-[750px] md:w-[750px] p-5`}>
             <div className='px-5 flex flex-col gap-4 mt-3'>
                 <h2 className='font-bold text-xl'>Sexual Health: Under</h2>
                 <p className='text-base'>The self -hygiene is one of the important of healthy habits which is very less thought. Of course, the doctors are constantly making points to the patients about self-hygiene as many of infectious conditions can be easily avoided if they follow the regular guidance of self-cleanliness.</p>

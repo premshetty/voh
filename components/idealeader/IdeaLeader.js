@@ -2,7 +2,7 @@ import React from 'react'
 import { Nav } from '../editorials/Editorials'
 import CarouselWithimagePreview from '../reusalbles/CarouselWithimagePreview'
 
-const Card = ({ img }) => {
+export const LatestBlogCard = ({ img }) => {
 
     return (
         <div className={` relative h-auto md:h-[250px] p-3 w-full md:min-w-[350px] border-b-[1px] border-[#00000049]`}>
@@ -37,10 +37,10 @@ const IdeaLeader = () => {
                             <h2 className='font-bold text-xl'>See more stories of the Idea Leader</h2>
                         </div>
                         <div className='mt-10'>
-                            <Card img="/persons/banner.jpg" />
-                            <Card img="/persons/banner.jpg" />
-                            <Card img="/persons/banner.jpg" />
-                            <Card img="/persons/banner.jpg" />
+                            <LatestBlogCard img="/persons/banner.jpg" />
+                            <LatestBlogCard img="/persons/banner.jpg" />
+                            <LatestBlogCard img="/persons/banner.jpg" />
+                            <LatestBlogCard img="/persons/banner.jpg" />
                         </div>
                     </div>
                     <div className='md:w-[48%]'>
@@ -48,10 +48,10 @@ const IdeaLeader = () => {
                             <h2 className='font-bold text-xl'>Latest Blog</h2>
                         </div>
                         <div className='mt-10'>
-                            <Card img="/persons/banner2.jpg" />
-                            <Card img="/persons/banner2.jpg" />
-                            <Card img="/persons/banner2.jpg" />
-                            <Card img="/persons/banner2.jpg" />
+                            <LatestBlogCard img="/persons/banner2.jpg" />
+                            <LatestBlogCard img="/persons/banner2.jpg" />
+                            <LatestBlogCard img="/persons/banner2.jpg" />
+                            <LatestBlogCard img="/persons/banner2.jpg" />
                         </div>
                     </div>
                 </div>

@@ -30,9 +30,9 @@ const ArticlleandBlogs = () => {
                 </div>
                 <div className='flex md:flex-row flex-col-reverse h-auto mt-10 md:h-[1100px] w-full justify-between'>
                     <div className='flex flex-col h-full justify-between'>
-                        <Card4 />
-                        <Card4 />
-                        <Card4 />
+                        <BlogCard4 />
+                        <BlogCard4 />
+                        <BlogCard4 />
                     </div>
                     <div className='flex flex-col gap-5 md:gap-0 h-full justify-between'>
                         <AdverstismentBlock height='530px' width='500px' />
