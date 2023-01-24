@@ -18,7 +18,7 @@ const Event2 = () => {
             <p className='text-2xl text-[#489FC5] font-[500] w-full text-center mt-10'>OVERVIEW</p>
             <div className='md:w-[60%] flex md:flex-row flex-col justify-center items-center mx-auto gap-10'>
                 <div className='flex flex-col gap-2 w-full md:w-[40%]'>
-                    <img src="/icons/doublequotes.svg" className='w-full md:h-[150px] float-right ml-20' alt="" />
+                    <img src="/icons/doublequotes.svg" className='w-full md:h-[150px] float-right md:ml-20' alt="" />
                     <p className='text-5xl leading-tight font-bold text-center md:text-right'>
                         Healthcare leaders architecting future prospects of health delivery
                     </p>

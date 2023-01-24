@@ -62,7 +62,7 @@ const Infrastructure = () => {
                     <p className='text-white text-2xl font-[500]'>Key Tracks</p>
                 </div>
             </div>
-            <div className='flex mt-20 justify-center odd:bg-[] even:bg-[]'>
+            <div className='flex mt-20 justify-center flex-col md:flex-row'>
                 <KeyTrackCard bg='#8C6160' />
                 <KeyTrackCard bg='#D1B5B7' />
                 <KeyTrackCard bg='#8C6160' />
@@ -97,7 +97,7 @@ const Infrastructure = () => {
             </div>
             <div className='bg-[#F0F0F0] md:p-10 p-3 w-full mt-20'>
                 <p className='w-full text-center font-bold text-2xl'>2023 EXHIBITORS</p>
-                <div className='flex justify-center items-center gap-10 mt-10'>
+                <div className='flex flex-wrap md:flex-nowrap justify-center items-center gap-10 mt-10'>
                     <img src="/icons/mgi.png" className='h-[100px]' alt="" />
                     <img src="/icons/mgi.png" className='h-[100px]' alt="" />
                     <img src="/icons/mgi.png" className='h-[100px]' alt="" />

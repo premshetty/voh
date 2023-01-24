@@ -8,9 +8,9 @@ export const Nav = () => {
             <a className='whitespace-nowrap text-xs md:text-sm' href='/events#publichealthawarness'> Public Health Awarness</a>
             <a className='whitespace-nowrap text-xs md:text-sm' href='/events#brandsolution'>Brand Solutions</a>
             <a className='whitespace-nowrap text-xs md:text-sm' href='/events#flagshipevent'> FlagShip Events</a>
-            <a className='whitespace-nowrap text-xs md:text-sm' href='/events#'> Event 1</a>
-            <a className='whitespace-nowrap text-xs md:text-sm' href='/events#'> Event 2</a>
-            <a className='whitespace-nowrap text-xs md:text-sm' href='/events#'> Event 3</a>
+            <a className='whitespace-nowrap text-xs md:text-sm' href='/events/1'> Event 1</a>
+            <a className='whitespace-nowrap text-xs md:text-sm' href='/events/2'> Event 2</a>
+            <a className='whitespace-nowrap text-xs md:text-sm' href='/events/3'> Event 3</a>
         </div>
     )
 }

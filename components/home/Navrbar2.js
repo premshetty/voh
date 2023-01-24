@@ -41,9 +41,9 @@ const Navrbar2 = ({ childs }) => {
                                         <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/events#flagshipevent">FLAGSHIP EVENTS</a></li>
                                     </ul>
                                     <ul>
-                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="#">EVENT1</a></li>
-                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="#">EVENT2</a></li>
-                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="#">EVENT3</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/events/1">EVENT1</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/events/2">EVENT2</a></li>
+                                        <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/events/3">EVENT3</a></li>
 
                                     </ul>
                                 </div>
@@ -72,7 +72,7 @@ const Navrbar2 = ({ childs }) => {
                             </ul>
 
                         </li>
-                        <li><a className='font-[500] text-[black]' href="#">Startup ecosystem</a></li>
+                        <li><a className='font-[500] text-[black]' href="#startupecosystem">Startup ecosystem</a></li>
 
                     </ul>
 
@@ -99,36 +99,36 @@ const Navrbar2 = ({ childs }) => {
                                 <div className=''>
                                     <h2 className='font-[700] text-[black] text-base'>EVENTS</h2>
                                     <div className='mt-5 flex flex-col gap-3'>
-                                        <a href='#' className='font-[500] text-[black] text-sm'>ALL EVENTS</a>
-                                        <a href='#' className='font-[500] text-[black] text-sm'>PUBLIC HEALTH AWARNESS</a>
-                                        <a href='#' className='font-[500] text-[black] text-sm'>BRAND SOLUTION</a>
-                                        <a href='#' className='font-[500] text-[black] text-sm'>FLAGSHIP EVENTS</a>
+                                        <a href='/events' className='font-[500] text-[black] text-sm'>ALL EVENTS</a>
+                                        <a href='/events#publichealthawarness' className='font-[500] text-[black] text-sm'>PUBLIC HEALTH AWARNESS</a>
+                                        <a href='/events#brandsolution' className='font-[500] text-[black] text-sm'>BRAND SOLUTION</a>
+                                        <a href='/events#flagshipevent' className='font-[500] text-[black] text-sm'>FLAGSHIP EVENTS</a>
                                     </div>
 
                                 </div>
                                 <div className='min-h-[200px]'>
 
                                     <div className='mt-5  flex flex-col gap-3'>
-                                        <a className='font-[500] text-[black] text-sm' href="#">EVENT1</a>
-                                        <a className='font-[500] text-[black] text-sm' href="#">EVENT2</a>
-                                        <a className='font-[500] text-[black] text-sm' href="#">EVENT3</a>
+                                        <a className='font-[500] text-[black] text-sm' href="/events/1">EVENT1</a>
+                                        <a className='font-[500] text-[black] text-sm' href="/events/2">EVENT2</a>
+                                        <a className='font-[500] text-[black] text-sm' href="/events/3">EVENT3</a>
                                     </div>
                                 </div>
                                 <div className='min-h-[200px]'>
                                     <h2 className='font-[700] text-[black] text-base'>Editorials</h2>
                                     <div className='mt-5 flex flex-col gap-3'>
-                                        <a href='#' className='font-[500] text-[black] text-sm'>IDEA LEADER</a>
-                                        <a href='#' className='font-[500] text-[black] text-sm'>BRAND IN FOCUS</a>
-                                        <a href='#' className='font-[500] text-[black] text-sm'>NEWS AND PR</a>
-                                        <a href='#' className='font-[500] text-[black] text-sm'>ARTICLE AND BLOG</a>
+                                        <a href='/idealeader' className='font-[500] text-[black] text-sm'>IDEA LEADER</a>
+                                        <a href='/brandinfocus' className='font-[500] text-[black] text-sm'>BRAND IN FOCUS</a>
+                                        <a href='/newsandpr' className='font-[500] text-[black] text-sm'>NEWS AND PR</a>
+                                        <a href='/articleandblogs' className='font-[500] text-[black] text-sm'>ARTICLE AND BLOG</a>
                                     </div>
                                 </div>
                                 <div className='min-h-[200px]'>
                                     <h2 className='font-[700] text-[black] text-base'>VOH TV</h2>
                                     <div className='mt-5 flex flex-col gap-3'>
-                                        <p className='font-[500] text-[black] text-sm'>Daily Broadcast</p>
-                                        <p className='font-[500] text-[black] text-sm'>Voice of Change</p>
-                                        <p className='font-[500] text-[black] text-sm'>The Big idea</p>
+                                        <a href='/allbroadcast/dailybroadcast' className='font-[500] text-[black] text-sm'>Daily Broadcast</a>
+                                        <a href='/allbroadcast/voiceofchange' className='font-[500] text-[black] text-sm'>Voice of Change</a>
+                                        <a href='/allbroadcast/thebigidea' className='font-[500] text-[black] text-sm'>The Big idea</a>
                                     </div>
                                 </div>
                                 {childs}

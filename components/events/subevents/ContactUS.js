@@ -17,7 +17,7 @@ export const ContactUS2 = () => {
                     <p className='text-white text-2xl font-[500]'>Contact Us</p>
                 </div>
             </div>
-            <div className='flex justify-center items-center mx-auto w-[80%] p-10'>
+            <div className='flex flex-col gap-10 md:flex-row md:gap-0 justify-center items-center mx-auto w-[80%] p-10'>
                 <div className='border-r-[5px] border-[#F7F7F7] flex flex-col gap-6 p-10'>
                     <p className='text-lg font-bold'>For general enquiry</p>
                     <p className='text-lg text-[#707070]'>VoH Team</p>
@@ -51,7 +51,7 @@ const ContactUS = () => {
                     <span className=' font-bold top-[-10px] left-12 -z-10 text-[120px]  absolute text-[#C9EFFF]'>C</span>
                     Contact Us</p>
             </div>
-            <div className='flex justify-center items-center mx-auto w-[80%] p-10'>
+            <div className='flex justify-center flex-col md:flex-row gap-10 md:gap-0 items-center mx-auto w-[80%] p-10'>
                 <div className='border-r-[5px] border-[#F7F7F7] flex flex-col gap-6 p-10'>
                     <p className='text-lg font-bold'>For general enquiry</p>
                     <p className='text-lg text-[#707070]'>VoH Team</p>

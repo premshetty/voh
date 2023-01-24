@@ -27,7 +27,7 @@ const Event3 = () => {
             <p className='text-2xl font-bold w-full text-center mt-10'>In association with</p>
             <img src="/brands.png" className=' transform  hover:scale-110 transition duration-500 w-[80%]  flex mx-auto mt-10 ' alt="" />
             <p className='text-[#05B4A2] text-3xl font-bold underline underline-offset-8  text-center w-full mt-10'>KEY TRACKS</p>
-            <div className='flex justify-between mt-20'>
+            <div className='flex flex-col justify-center items-center md:items-start gap-10 md:gap-0 md:flex-row md:justify-between mt-20'>
                 <Card />
                 <Card />
                 <Card />
@@ -44,7 +44,7 @@ const Event3 = () => {
             <p className='text-[#05B4A2] text-3xl font-bold underline underline-offset-8  text-center w-full mt-10'>SUMMIT HIGHLIGHTS</p>
             <Featured color='#05B4A2' />
             <p className='text-[#05B4A2] text-3xl font-bold underline underline-offset-8  text-center w-full mt-10'>SPEAKERS</p>
-            <div className='grid grid-cols-1 gap-y-10 md:grid-cols-4 mt-10'>
+            <div className='grid grid-cols-1  justify-items-center md:justify-items-start gap-y-10 md:grid-cols-4 mt-10'>
                 <GuestCard />
                 <GuestCard />
                 <GuestCard />

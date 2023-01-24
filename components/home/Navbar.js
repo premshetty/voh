@@ -6,7 +6,7 @@ const Navbar = () => {
         events: {
             name: 'Events',
             list: [{ name: 'ALL EVENTS', link: '#' }, { name: 'PUBLIC HEALTH AWARNESS', link: '#' }, { name: 'BRAND SOLUTION', link: '#' }, { name: 'FLAGSHIP EVENTS', link: '#' }],
-            list2: [{ name: 'EVENT1', link: '#' }, { name: 'EVENT2', link: '#' }, { name: 'EVENT3', link: '#' }]
+            list2: [{ name: 'EVENT1', link: '/event/1' }, { name: 'EVENT2', link: '/event/2' }, { name: 'EVENT3', link: '/event/3' }]
         },
         editorials: {
             name: 'Editorials',

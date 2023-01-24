@@ -88,7 +88,7 @@ const Home = () => {
                 <img src="/allbroadcast/cardImg1.png" className='h-[380px]' />
                 <img src="/allbroadcast/cardIBroad1.png" className='h-[380px]' />
             </div>
-            <div className={`h-screen relative w-full bg-cover bg-no-repeat `} style={{ backgroundImage: `url('/steco.png')` }}>
+            <div id='startupecosystem' className={`h-screen relative w-full bg-cover bg-no-repeat `} style={{ backgroundImage: `url('/steco.png')` }}>
                 <div className={`${classes.bgshadow} w-full h-full flex-col opacity-50 z-10 flex justify-center items-center`}></div>
                 <div className='w-full h-full absolute top-0 left-0 flex-col gap-10 flex justify-center items-center'>
                     <h2 className='text-5xl w-[300px] text-center  font-bold text-white'>Startup Ecosystem</h2>
