@@ -7,6 +7,8 @@ import Link from 'next/link'
 import classes from '../editorials/editorial.module.css'
 import { LatestBlogCard } from '../idealeader/IdeaLeader'
 import { BlogCard4 } from '../articleandblogs/Cards'
+import AllCard from '../allBroadCast/VoiceOfChange'
+
 export const NewsandprCard = () => {
     return (
         <div className={`${classes.IdeaLeaderCard} bg-white  h-[520px] max-w-[400px] min-w-[350px]`}>
@@ -24,8 +26,8 @@ export const NewsandprCard = () => {
 const Home = () => {
     return (
         <>
-            <div className='flex mt-28 items-start justify-between'>
-                <div className='flex flex-col gap-5 w-[67%]'>
+            <div className='flex mt-28 flex-col md:flex-row items-start justify-between'>
+                <div className='flex flex-col gap-5 w-full  md:w-[67%]'>
                     <Carousel height='500px'
                         img1='/award.png'
                         img2='/persons/brand_infocus.png'
@@ -47,7 +49,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-[30%] -mt-20'>
+                <div className='w-full md:w-[30%] -mt-20'>
 
                     <Events />
                 </div>
@@ -64,7 +66,7 @@ const Home = () => {
             <div className='border-b-[5px] mt-10 pb-2 border-[#A25B5D]'>
                 <h2 className='font-bold text-xl'>Latest Blog</h2>
             </div>
-            <div className='mt-10 flex gap-6'>
+            <div className='mt-10 flex flex-col md:flex-row gap-6'>
                 <div>
 
                     <LatestBlogCard img="/persons/banner2.jpg" />
@@ -75,6 +77,25 @@ const Home = () => {
 
                     <BlogCard4 bg='white' />
                     <BlogCard4 bg='white' />
+                </div>
+            </div>
+            <h2 className='font-bold text-xl mt-20'>VOH Tv</h2>
+            <div className={`${classes.cardcontainer} flex overflow-x-scroll w-full gap-10`}>
+                <img src="/allbroadcast/cardIBroad1.png" className='h-[380px]' />
+                <img src="/allbroadcast/cardIBroad1.png" className='h-[380px]' />
+                <AllCard />
+                <AllCard />
+                <img src="/allbroadcast/cardImg1.png" className='h-[380px]' />
+                <img src="/allbroadcast/cardIBroad1.png" className='h-[380px]' />
+            </div>
+            <div className={`h-screen relative w-full bg-cover bg-no-repeat `} style={{ backgroundImage: `url('/steco.png')` }}>
+                <div className={`${classes.bgshadow} w-full h-full flex-col opacity-50 z-10 flex justify-center items-center`}></div>
+                <div className='w-full h-full absolute top-0 left-0 flex-col gap-10 flex justify-center items-center'>
+                    <h2 className='text-5xl w-[300px] text-center  font-bold text-white'>Startup Ecosystem</h2>
+                    <p className='text-base w-[500px] text-center   text-white'>See how the tech and healthcare are working hand in hand in this exclusive platform.</p>
+                    <button className='h-12 opacity-100 px-5 text-white hover:text-button_cta font-[500] bg-button_cta hover:bg-white'>
+                        View Details
+                    </button>
                 </div>
             </div>
         </>

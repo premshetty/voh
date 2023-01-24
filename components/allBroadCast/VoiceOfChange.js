@@ -5,7 +5,7 @@ const AllCard = () => {
     <div
       className="relative "
       style={{
-        width: "270px",
+        minWidth: "270px",
         height: "430px",
       }}
     >
