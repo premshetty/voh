@@ -22,6 +22,7 @@ const Editorials = () => {
                 <div className=' w-full  md:w-[65%]  h-[300px] md:h-[483px]'>
                     <Carousel
                         img1="/persons/banner.jpg" img2="/persons/brand_infocus.png" img3="/persons/banner2.jpg"
+                        height='500px'
                     />
                 </div>
                 <Trending />

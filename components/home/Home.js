@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Carousel from '../reusalbles/Carousel'
-import Events from './EventsIncubator'
+import IncEvents from './EventsIncubator'
+import Events from '../editorials/Events'
 import { IdealeaderCard } from '../editorials/IdeaLeader'
 import { BrandinfocusCard } from '../editorials/BrandinFocus'
 import Link from 'next/link'
@@ -139,7 +140,7 @@ const Home = () => {
                         <button className='bg-[#FB9100] font-sans text-white text-xl w-[150px] h-10 rounded-[36px] right-5 absolute bottom-[-40px]'>APPLY NOW</button>
                     </div>
                     <div className='w-full md:w-[35%] md:-mt-20  '>
-                        <Events height='630px' btnclr='#5F9DC1' />
+                        <IncEvents height='630px' btnclr='#5F9DC1' />
                     </div>
                 </div>
             </div>

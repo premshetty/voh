@@ -79,7 +79,7 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <p className='flex text-footer_para_text font-proxima justify-center mt-10 font-proxima'> <img src="/icons/copyright.svg" alt="" /> All Rights Reserved by VOH</p>
+                <p className='flex text-footer_para_text font-proxima justify-center mt-10 '> <img src="/icons/copyright.svg" alt="" /> All Rights Reserved by VOH</p>
             </div>
         </>
     )
