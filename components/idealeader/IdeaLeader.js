@@ -3,7 +3,6 @@ import { Nav } from '../editorials/Editorials'
 import CarouselWithimagePreview from '../reusalbles/CarouselWithimagePreview'
 
 export const LatestBlogCard = ({ img }) => {
-
     return (
         <div className={` relative h-auto md:h-[250px] p-3 w-full md:min-w-[350px] border-b-[1px] border-[#00000049]`}>
             <div className='flex flex-col md:flex-row gap-4'>
@@ -27,14 +26,14 @@ const IdeaLeader = () => {
             <Nav />
             <div className='px-3 md:px-10 w-full mt-32'>
                 <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#5F9DC1]'>
-                    <h2 className='font-bold text-xl'>Idea Leader</h2>
+                    <h2 className='font-bold text-xl font-sans'>Idea Leader</h2>
                 </div>
 
                 <CarouselWithimagePreview />
                 <div className='flex flex-col md:flex-row justify-between w-full'>
                     <div className='md:w-[48%]'>
                         <div className='flex mt-20 justify-between w-full items-center border-b-[3px] pb-2 border-[#489FC5]'>
-                            <h2 className='font-bold text-xl'>See more stories of the Idea Leader</h2>
+                            <h2 className='font-bold text-xl font-sans'>See more stories of the Idea Leader</h2>
                         </div>
                         <div className='mt-10'>
                             <LatestBlogCard img="/persons/banner.jpg" />
@@ -45,7 +44,7 @@ const IdeaLeader = () => {
                     </div>
                     <div className='md:w-[48%]'>
                         <div className='flex mt-20 justify-between w-full items-center border-b-[3px] pb-2 border-[#A25B5D]'>
-                            <h2 className='font-bold text-xl'>Latest Blog</h2>
+                            <h2 className='font-bold text-xl font-sans'>Latest Blog</h2>
                         </div>
                         <div className='mt-10'>
                             <LatestBlogCard img="/persons/banner2.jpg" />
