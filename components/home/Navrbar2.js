@@ -56,8 +56,8 @@ const Navrbar2 = ({ childs }) => {
                             <ul className="absolute bg-white  py-6 px-10 w-auto whitespace-nowrap top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
                                 <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/idealeader">IDEA LEADER</a></li>
                                 <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/brandinfocus">BRAND IN FOCUS</a></li>
-                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/newsandpr">NEWS AND PR</a></li>
                                 <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/articleandblogs">ARTICLE AND BLOG</a></li>
+                                <li className="text-sm hover:bg-slate-100 leading-8"><a className='font-[500] text-[black]' href="/newsandpr">NEWS AND PR</a></li>
                             </ul>
 
                         </li>
@@ -119,8 +119,8 @@ const Navrbar2 = ({ childs }) => {
                                     <div className='mt-5 flex flex-col gap-3'>
                                         <a href='/idealeader' className='font-[500] text-[black] text-sm'>IDEA LEADER</a>
                                         <a href='/brandinfocus' className='font-[500] text-[black] text-sm'>BRAND IN FOCUS</a>
-                                        <a href='/newsandpr' className='font-[500] text-[black] text-sm'>NEWS AND PR</a>
                                         <a href='/articleandblogs' className='font-[500] text-[black] text-sm'>ARTICLE AND BLOG</a>
+                                        <a href='/newsandpr' className='font-[500] text-[black] text-sm'>NEWS AND PR</a>
                                     </div>
                                 </div>
                                 <div className='min-h-[200px]'>
