@@ -8,7 +8,7 @@ const ArticlleandBlogs = () => {
         <>
             <Nav />
             <div className='mt-32 px-3 md:px-10 max-w-full'>
-                <div className='border-b-[5px] pb-2 border-[#A25B5D]'>
+                <div className='border-b-[3px] pb-2 border-[#A25B5D]'>
                     <h2 className='font-bold text-xl'>Article & Blog</h2>
                 </div>
                 <div className='flex h-auto md:flex-row flex-col md:h-[800px] justify-between items-start gap-3 mt-10'>

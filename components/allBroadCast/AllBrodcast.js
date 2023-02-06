@@ -23,7 +23,7 @@ const AllBrodcasr = () => {
           <Carousel />
         </div>
         <Link href='/allbroadcast/dailybroadcast'>
-          <div id='dailybroadcast' className="flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]">
+          <div id='dailybroadcast' className="flex justify-between items-center border-b-[3px] pb-2 border-[#5F9DC1]">
             <h2 className="font-bold text-xl ml-10 font-sans">Daily Broadcast</h2>
             <img src="/icons/right.svg" className="h-4" alt="" />
           </div>
@@ -40,7 +40,7 @@ const AllBrodcasr = () => {
           ))}
         </div>
         <Link href='/allbroadcast/voiceofchange'>
-          <div id="voiceofchanges" className="flex mt-10 justify-between items-center border-b-[5px] pb-2 border-[#AD565B]">
+          <div id="voiceofchanges" className="flex mt-10 justify-between items-center border-b-[3px] pb-2 border-[#AD565B]">
             <h2 className="font-bold text-xl ml-10 font-sans">Voice of change</h2>
             <img src="/icons/right.svg" className="h-4" alt="" />
           </div>
@@ -55,7 +55,7 @@ const AllBrodcasr = () => {
           ))}
         </div>
         <Link href='/allbroadcast/thebigidea'>
-          <div id='thebigidea' className="flex justify-between items-center border-b-[5px] pb-2 border-[#05B4A2]">
+          <div id='thebigidea' className="flex justify-between items-center border-b-[3px] pb-2 border-[#05B4A2]">
             <h2 className="font-bold text-xl ml-10 font-sans">The Big Idea</h2>
           </div>
         </Link>

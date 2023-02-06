@@ -10,7 +10,7 @@ const TheBigIdea2 = () => {
             <div className='mt-32 px-3 md:px-10'>
                 <img src="/allbroadcast/dailyBoadcast.png" alt="" />
                 <div>
-                    <div className="flex mt-10 justify-between items-center border-b-[5px] pb-2 border-[#05B4A2]">
+                    <div className="flex mt-10 justify-between items-center border-b-[3px] pb-2 border-[#05B4A2]">
                         <h2 className="font-bold text-xl">The Big Idea</h2>
                     </div>
                     <div>
@@ -55,7 +55,7 @@ const TheBigIdea2 = () => {
                     <div id='brandinfocus' className={` w-full mt-10`}>
                         <Link href='/brandinfocus' >
 
-                            <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#AD565B]'>
+                            <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#AD565B]'>
                                 <h2 className='font-bold text-xl'>Also watch Voice Of Change</h2>
                                 <img src="/icons/right.svg" className='h-4' alt="" />
                             </div>

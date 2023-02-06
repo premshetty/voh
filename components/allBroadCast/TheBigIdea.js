@@ -9,7 +9,7 @@ const TheBigIdea = () => {
             <div className='mt-32 px-3 md:px-10'>
                 <img src="/allbroadcast/dailyBoadcast.png" alt="" />
                 <div>
-                    <div className="flex mt-10 justify-between items-center border-b-[5px] pb-2 border-[#05B4A2]">
+                    <div className="flex mt-10 justify-between items-center border-b-[3px] pb-2 border-[#05B4A2]">
                         <h2 className="font-bold text-xl">The Big Idea</h2>
                     </div>
                     <div>

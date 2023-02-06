@@ -100,7 +100,7 @@ const AllEvents = () => {
             <MainCard img="/event_banner.png" date='October 19 , 2022' addon={false} />
             <div id='publichealthawarness' className=' w-full mt-10'>
                 <Link href='/events/publichealthawarness'>
-                    <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]'>
+                    <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#5F9DC1]'>
                         <h2 className='font-bold text-xl'>Public Health Awareness</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
                     </div>
@@ -114,7 +114,7 @@ const AllEvents = () => {
             </div>
             <div id='brandsolution' className=' w-full mt-10'>
                 <Link href='/events/brandsolution'>
-                    <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#51B1A2]'>
+                    <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#51B1A2]'>
                         <h2 className='font-bold text-xl'>Brand Solution</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
                     </div>
@@ -128,7 +128,7 @@ const AllEvents = () => {
             </div>
             <div id='flagshipevent' className=' w-full mt-10'>
                 <Link href='/events/flagshipevents'>
-                    <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#A25B5D]'>
+                    <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#A25B5D]'>
                         <h2 className='font-bold text-xl'>FlagShip Events</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
                     </div>

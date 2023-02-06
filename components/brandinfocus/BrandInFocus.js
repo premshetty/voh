@@ -8,7 +8,7 @@ const BrandInFocus = () => {
         <div className=''>
             <Nav />
             <div className=' w-full mt-32 px-3 md:px-10'>
-                <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#51B1A2]'>
+                <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#51B1A2]'>
                     <h2 className='font-bold text-xl'>Brand In Focus</h2>
                 </div>
                 <div className='flex md:flex-row gap-6 md:gap-0 flex-col w-full justify-between h-[100vh] mt-10'>

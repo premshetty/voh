@@ -10,7 +10,7 @@ const VoiceOfChanges = () => {
             <div id='voiceofchanges' className='px-3 md:px-10 mt-32'>
                 <img src="/allbroadcast/dailyBoadcast.png" alt="" />
                 <div>
-                    <div className="flex justify-between items-center border-b-[5px] pb-2 mt-10 border-[#AD565B]">
+                    <div className="flex justify-between items-center border-b-[3px] pb-2 mt-10 border-[#AD565B]">
                         <h2 className="font-bold text-xl">Voice of Change</h2>
                     </div>
                     <div>

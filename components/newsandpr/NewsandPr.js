@@ -32,7 +32,7 @@ const NewsandPr = () => {
         <>
             <Nav />
             <div className='px-3 md:px-10 w-full mt-32'>
-                <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#36AC9B]'>
+                <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#36AC9B]'>
                     <h2 className='font-bold text-xl'>News & PR</h2>
                 </div>
                 <Card1 />

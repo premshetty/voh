@@ -21,7 +21,7 @@ const IdeaLeader = () => {
     return (
         <div id='idealeader' className='px-3 mb-10  md:px-10 w-full mt-12  md:mt-32'>
             <Link href='/idealeader'>
-                <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]'>
+                <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#5F9DC1]'>
                     <h2 className='font-bold text-xl font-sans'>Idea Leader</h2>
                     <img src="/icons/right.svg" className='h-4' alt="" />
                 </div>

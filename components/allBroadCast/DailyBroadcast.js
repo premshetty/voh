@@ -9,7 +9,7 @@ const DailyBroadcast = () => {
             <div className='mt-32 px-3 md:px-10'>
                 <img src="/allbroadcast/dailyBoadcast.png" alt="" />
                 <div>
-                    <div className="mt-10 flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]">
+                    <div className="mt-10 flex justify-between items-center border-b-[3px] pb-2 border-[#5F9DC1]">
                         <h2 className="font-bold text-xl">Daily Broadcast</h2>
                     </div>
                     <div>
