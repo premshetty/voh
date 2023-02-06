@@ -24,27 +24,27 @@ export const NewsandprCard = () => {
     )
 }
 const videolist = {
-    1: <iframe width="560" height="315" src="https://www.youtube.com/embed/ilsFHj7EQ5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
-    2: <iframe width="560" height="315" src="https://www.youtube.com/embed/P_uHK1M65Po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
-    3: <iframe width="560" height="315" src="https://www.youtube.com/embed/MPEqYB0NVAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    1: <iframe className='aspect-auto h-[300px] w-full' src="https://www.youtube.com/embed/ilsFHj7EQ5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    2: <iframe className='aspect-auto h-[300px] w-full' src="https://www.youtube.com/embed/P_uHK1M65Po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    3: <iframe className='aspect-auto h-[300px] w-full' src="https://www.youtube.com/embed/MPEqYB0NVAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 }
 const Home = () => {
     const [activeCard, setActiveCard] = useState(1)
     const PlaylistCard = () => {
         const cards = [1, 2, 3].map(item => {
             if (activeCard === item) {
-                return <div onClick={() => setActiveCard(item)} className=' cursor-pointer w-[90%] flex flex-col items-center justify-center h-[200px] p-10 border-b border-[#ffffff52]  '>
+                return <div onClick={() => setActiveCard(item)} className=' cursor-pointer md:w-[90%] flex flex-col items-center justify-center h-[200px] md:p-10 border-b border-[#ffffff52]  '>
                     <div className='flex gap-5 border-[4px] border-[#05B4A2] w-full  p-5 relative h-[160px]'>
                         <p className='text-[#05B4A2] absolute bg-[#5F5F5F] top-[-13px!important] px-4'>Now Playing</p>
                         <img className='w-[170px] object-cover' src="/allbroadcast/groupImg.png" alt='youtube thumbnail' />
                         <div className='flex flex-col flex-grow justify-between h-full'>
-                            <p className='text-xl text-white font-bold font-proxima'>National Diabetes Conclave | Education to protect tomorrow</p>
+                            <p className='md:text-xl text-sm text-white font-bold font-proxima'>National Diabetes Conclave | Education to protect tomorrow</p>
                             <p className='text-white'>30:00</p>
                         </div>
                     </div>
                 </div>
             } else {
-                return <div onClick={() => setActiveCard(item)} className='cursor-pointer flex gap-5 w-[95%] h-[200px] p-10 border-b border-[#ffffff52]'>
+                return <div onClick={() => setActiveCard(item)} className='cursor-pointer flex gap-5 md:w-[95%] h-[200px] md:p-10 border-b border-[#ffffff52]'>
                     <div className='flex gap-5 w-full  p-5 h-[140px]'>
                         <img className='w-[170px] object-cover' src="/allbroadcast/groupImg.png" alt='youtube thumbnail' />
                         <div className='flex flex-col flex-grow w-full justify-between h-full'>
@@ -87,7 +87,7 @@ const Home = () => {
                 </div>
 
             </div>
-            <div className='bg-[#EBEBEB] p-3 md:p-10'>
+            <div className='bg-[#EBEBEB] p-3 md:p-10 md:w-[98.6vw] md:-ml-10'>
                 <p className='text-2xl font-bold font-sans'>News & PR</p>
                 <div className='grid grid-cols-1 md:grid-cols-3 mt-10'>
                     <NewsandprCard />
@@ -109,17 +109,17 @@ const Home = () => {
                     <BlogCard4 bg='white' />
                 </div>
             </div>
-            <div className='md:h-screen mt-10  h-auto bg-[#5F5F5F] w-full grid grid-cols-1 md:grid-cols-2'>
+            <div className='md:h-screen mt-10 md:w-[98.6vw] md:-ml-10  h-auto bg-[#5F5F5F]  grid grid-cols-1 lg:grid-cols-2'>
                 <div className='w-[90%] h-full flex flex-col justify-around p-10 relative'>
                     <p className='font-sans text-white text-2xl font-bold'>Video Campaigns</p>
                     {videolist[activeCard]}
                     <p className='font-proxima font-[500] text-white text-xl'>National Diabetes Conclave | Education to protect tomorrow</p>
                     <p className='font-proxima text-white opacity-80'>Care is changing, and it is time to take a fresh look at the ecosystem infrastructure that sustains and powers it. Voice of Healthcare brings together leading figures to initiate much-needed dialogues and expedient disruptions to achieve that goal.</p>
                     <p className='cursor-pointer flex gap-2 font-sans text-[#05B4A2] font-bold text-xl'>View Highlights <img src="/icons/longarrowright.svg" alt="" /> </p>
-                    <div className='absolute h-[80%] bg-[#ffffff52] w-[2px] right-0 '>
+                    <div className='hidden md:block absolute h-[80%] bg-[#ffffff52] w-[2px] right-0 '>
                     </div>
                 </div>
-                <div className='w-[90%] h-full flex flex-col justify-around py-10'>
+                <div className='md:w-[90%] w-full h-full flex flex-col justify-around md:py-10 p-5 '>
                     <p className='font-sans text-white text-2xl font-bold'>Playlist</p>
                     <div>
                         <PlaylistCard />
@@ -131,14 +131,14 @@ const Home = () => {
 
                 <h2 className='font-bold text-xl mt-20 font-sans'>VOH Incubator</h2>
 
-                <div className='w-full flex justify-between h-[600px] mt-10'>
-                    <div className='flex flex-col relative gap-10 w-[60%]'>
+                <div className='w-full flex-col md:flex-row flex justify-between md:h-[600px] mt-10'>
+                    <div className='flex flex-col relative gap-10 md:w-[60%]'>
                         <img className='h-[400px]' src="/voh_incubator.png" alt="" />
                         <h3 className='text-2xl font-sans  text-[#ED960F] font-bold ml-2'>India’s only Health- Centric Startup Incubator</h3>
                         <p className='text-base font-proxima w-[80%] ml-2'>We are INDIA’S FIRST AND FOREMOST ENTREPRENEURIAL ECOSYSTEM FOCUSED ON HEALTHCARE, designed to help healthcare-focused founders If you are a healthcare start-up looking for a launchpad, look no further!</p>
                         <button className='bg-[#FB9100] font-sans text-white text-xl w-[150px] h-10 rounded-[36px] right-5 absolute bottom-[-40px]'>APPLY NOW</button>
                     </div>
-                    <div className='w-full md:w-[35%] -mt-20 '>
+                    <div className='w-full md:w-[35%] md:-mt-20  '>
                         <Events height='630px' btnclr='#5F9DC1' />
                     </div>
                 </div>
