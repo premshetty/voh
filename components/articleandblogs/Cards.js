@@ -48,11 +48,11 @@ export const BlogCard4 = ({ bg }) => {
     return (
         <div style={{ backgroundColor: bg }} className={`${classes.IdeaLeaderCard2} md:h-[350px] max-w-[98vw] items-center md:items-start flex-col-reverse md:flex-row flex md:min-w-[750px] md:w-[750px] p-5`}>
             <div className='px-5 flex flex-col gap-4 mt-3'>
-                <h2 className='font-bold text-xl'>Sexual Health: Under</h2>
-                <p className='text-base'>The self -hygiene is one of the important of healthy habits which is very less thought. Of course, the doctors are constantly making points to the patients about self-hygiene as many of infectious conditions can be easily avoided if they follow the regular guidance of self-cleanliness.</p>
+                <h2 className='font-bold text-xl font-sans'>Sexual Health: Under</h2>
+                <p className='text-base font-proxima '>The self -hygiene is one of the important of healthy habits which is very less thought. Of course, the doctors are constantly making points to the patients about self-hygiene as many of infectious conditions can be easily avoided if they follow the regular guidance of self-cleanliness.</p>
                 <div className='w-full flex justify-between'>
-                    <p className='font-bold text-[#272727]'>By Rajavarman Kittu</p>
-                    <p className='text-[#606060] text-sm'>01 Nov, 2022</p>
+                    <p className='font-bold text-[#272727] font-proxima'>By Rajavarman Kittu</p>
+                    <p className='text-[#606060] text-sm font-proxima'>01 Nov, 2022</p>
                 </div>
                 <button className='h-10 w-32 bg-button_cta font-bold text-white'>Read more</button>
             </div>

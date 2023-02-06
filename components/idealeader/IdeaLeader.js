@@ -9,13 +9,13 @@ export const LatestBlogCard = ({ img }) => {
             <div className='flex flex-col md:flex-row gap-4'>
                 <img className='h-[150px] md:h-[100px] w-auto' src={img} alt="" />
                 <div className='flex flex-col gap-3'>
-                    <h1 className='font-bold text-xl md:text-2xl'>Vishaka Goyal</h1>
-                    <p className='font-sm md:font-lg font-semibold'>Clinicspots</p>
-                    <p className='text-[#606060] font-sm'>01 Nov, 2022</p>
+                    <h1 className='font-bold text-xl md:text-2xl font-sans'>Vishaka Goyal</h1>
+                    <p className='font-sm md:font-lg font-semibold font-proxima'>Clinicspots</p>
+                    <p className='text-[#606060] font-sm font-proxima'>01 Nov, 2022</p>
                 </div>
             </div>
             <div className='md:px-5 flex flex-col gap-4 mt-3'>
-                <p className='text-[#2C2A2A] text-[16px] font-[400]'>Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access.</p>
+                <p className='text-[#2C2A2A] text-[16px] font-[400] font-proxima'>Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access.</p>
                 <button className='h-10 w-32 bg-button_cta font-bold md:absolute bottom-2 right-2 text-white'>Read more</button>
             </div>
         </div>

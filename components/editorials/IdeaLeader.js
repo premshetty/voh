@@ -4,17 +4,17 @@ import classes from './editorial.module.css'
 
 export const IdealeaderCard = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard} h-[500px] min-w-full  md:min-w-[350px]`}>
+        <div className={`${classes.IdeaLeaderCard} h-[470px] min-w-full md:min-w-[350px]`}>
             <img src="/persons/idea_lead_card.png" alt="" />
             <div className='px-5 flex flex-col gap-4 mt-3'>
 
-                <h1 className='font-bold text-2xl'>Vishaka Goyal</h1>
-                <p className='font-lg font-semibold'>Clinicspots</p>
-                <p>Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access.</p>
-                <p className='text-[#606060]'>01 Nov, 2022</p>
-                <button className='h-10 w-32 font-bold'>Read more</button>
+                <h1 className='font-bold text-2xl font-sans'>Vishaka Goyal</h1>
+                <p className='font-lg font-semibold font-proxima'>Clinicspots</p>
+                <p className='font-proxima'>Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access.</p>
+                <p className='text-[#606060] font-proxima mb-5'>01 Nov, 2022</p>
+                <button className='h-10 w-32 font-bold mb-5 mr-5'>Read more</button>
             </div>
-        </div>
+        </div >
     )
 }
 const IdeaLeader = () => {

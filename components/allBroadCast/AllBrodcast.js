@@ -1,9 +1,8 @@
 import React from "react";
 import Carousel from "./Carousel";
 import AllCard from "./VoiceOfChange";
-import SeeMore from "../reusalbles/SeeMore";
 import classes from '../editorials/editorial.module.css'
-import DailyBroadcast from "./DailyBroadcast";
+
 import Link from "next/link";
 export const Nav = () => {
   return (
@@ -25,34 +24,39 @@ const AllBrodcasr = () => {
         </div>
         <Link href='/allbroadcast/dailybroadcast'>
           <div id='dailybroadcast' className="flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]">
-            <h2 className="font-bold text-xl">Daily Broadcast</h2>
+            <h2 className="font-bold text-xl ml-10 font-sans">Daily Broadcast</h2>
             <img src="/icons/right.svg" className="h-4" alt="" />
           </div>
         </Link>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'
         >
           {[1, 2, 3, 4].map((item) => (
-            <img
-              src="/allbroadcast/cardIBroad1.png"
-              style={{ width: "265px" }}
-            />
+            <div className={`${classes.IdeaLeaderCard2}`}>
+              <img
+                src="/allbroadcast/cardIBroad1.png"
+                style={{ width: "335px" }}
+              />
+            </div>
           ))}
         </div>
         <Link href='/allbroadcast/voiceofchange'>
-          <div id="voiceofchanges" className="flex mt-10 justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]">
-            <h2 className="font-bold text-xl">Voice of change</h2>
+          <div id="voiceofchanges" className="flex mt-10 justify-between items-center border-b-[5px] pb-2 border-[#AD565B]">
+            <h2 className="font-bold text-xl ml-10 font-sans">Voice of change</h2>
             <img src="/icons/right.svg" className="h-4" alt="" />
           </div>
         </Link>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'
         >
           {[1, 2, 3, 4].map((item) => (
-            <AllCard />
+            <div className="">
+
+              <AllCard />
+            </div>
           ))}
         </div>
         <Link href='/allbroadcast/thebigidea'>
           <div id='thebigidea' className="flex justify-between items-center border-b-[5px] pb-2 border-[#05B4A2]">
-            <h2 className="font-bold text-xl">The Big Idea</h2>
+            <h2 className="font-bold text-xl ml-10 font-sans">The Big Idea</h2>
           </div>
         </Link>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'

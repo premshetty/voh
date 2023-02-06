@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav } from '../editorials/Editorials'
-import { Card1, Card2, Card3, Card4 } from './Cards'
+import { Card1, Card2, Card3, BlogCard4 } from './Cards'
 import AdverstismentBlock from '../reusalbles/AdverstismentBlock'
 import SeeMore from '../reusalbles/SeeMore'
 const ArticlleandBlogs = () => {

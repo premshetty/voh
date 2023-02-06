@@ -4,9 +4,9 @@ import { useState } from 'react'
 import GroupImg from "../../public/allbroadcast/groupImg.png"
 
 const elements = [
-    <img src="/allbroadcast/groupImg.png" style={{width:"90%", marginLeft:"auto", marginRight:"auto"}} className='object-cover' alt="" />,
-    <img src="/allbroadcast/groupImg.png" style={{width:"90%", marginLeft:"auto", marginRight:"auto"}} className='object-cover' alt="" />,
-    <img src="/allbroadcast/groupImg.png" style={{width:"90%", marginLeft:"auto", marginRight:"auto"}} className='object-cover' alt="" />,
+    <img src="/allbroadcast/groupImg.png" style={{ width: "80%", marginLeft: "auto", marginRight: "auto" }} className='object-cover' alt="" />,
+    <img src="/allbroadcast/groupImg.png" style={{ width: "80%", marginLeft: "auto", marginRight: "auto" }} className='object-cover' alt="" />,
+    <img src="/allbroadcast/groupImg.png" style={{ width: "80%", marginLeft: "auto", marginRight: "auto" }} className='object-cover' alt="" />,
 ]
 let initial = 0;
 const Carousel = () => {

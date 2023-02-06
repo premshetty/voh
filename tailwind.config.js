@@ -16,7 +16,12 @@ module.exports = {
       'footer_color': '#76A0BC',
       'footer_para_text': '#F0F5F8',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': 'Roboto',
+        'proxima': ['proxima-nova'],
+      }
+    },
   },
   plugins: [],
 }
