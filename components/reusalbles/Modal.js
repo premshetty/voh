@@ -20,7 +20,7 @@ export default function BasicModal({ openstatus }) {
         }
     }
     return (
-        <div>
+        <div style={{ outline: 'none' }}>
 
             <Modal
                 className='outline-none border-0'
@@ -28,8 +28,9 @@ export default function BasicModal({ openstatus }) {
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
+                style={{ outline: 'none' }}
             >
-                <div className='absolute p-10 top-0 left-0 h-[600px] md:top-[0%] md:left-[25%] md:h-[400px] w-full md:w-[700px]' style={{ backgroundImage: `url('/modal_bg.png')` }}>
+                <div className='absolute p-10 top-[0%] left-0 h-[600px] md:top-[25%] md:left-[25%] md:h-[400px] w-full md:w-[700px]' style={{ backgroundImage: `url('/modal_bg.png')` }}>
                     <div className='h-full w-full bg-white gap-6 flex flex-col justify-start p-3 md:p-10 items-center'>
                         <h2 className='text-2xl md:text-[30px] font-bold mt-16 md:mt-8'>Get exclusive invites for VOH Events</h2>
                         <p className='text-center text-xs md:text-sm opacity-80'>Our biggest stories delivered straight into your inbox everyday !</p>

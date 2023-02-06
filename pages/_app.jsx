@@ -54,7 +54,6 @@ function MyApp({ Component, pageProps }) {
     '/events/1': events,
     '/events/2': events,
     '/events/3': events,
-
   }
   useEffect(() => {
     setChild(routes[router.pathname])
@@ -62,14 +61,15 @@ function MyApp({ Component, pageProps }) {
   let counter = 0;
 
   useEffect(() => {
-    document.getElementsByTagName('body')[0].onscroll = function () {
-      if (counter > 1 && counter < 3) {
-        setOpen(true)
+    if (router.pathname.includes('/events')) {
+      document.getElementsByTagName('body')[0].onscroll = function () {
+        if (counter > 1 && counter < 3) {
+          setOpen(true)
+        }
+        counter++
 
-      }
-      counter++
-
-    };
+      };
+    }
   }, [])
 
 

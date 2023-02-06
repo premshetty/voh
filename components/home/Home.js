@@ -68,8 +68,8 @@ const Home = () => {
                         img3='/allbroadcast/groupImg.png'
                     />
                     <div id='idealeader' className='px-3 mb-10  md:px-10 w-full '>
-                        <Link href='/idealeader'>
-                            <div className='flex justify-between items-center border-b-[5px] pb-2 border-[#5F9DC1]'>
+                        <Link href='/editorials'>
+                            <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#5F9DC1]'>
                                 <h2 className='font-bold text-xl font-sans'>Editorials</h2>
                                 <img src="/icons/right.svg" className='h-4' alt="" />
                             </div>
@@ -96,7 +96,7 @@ const Home = () => {
                     <NewsandprCard />
                 </div>
             </div>
-            <div className='border-b-[5px] mt-10 pb-2 border-[#A25B5D]'>
+            <div className='border-b-[3px] mt-10 pb-2 border-[#A25B5D]'>
                 <h2 className='font-bold text-xl font-sans ml-10'>Latest Blog</h2>
             </div>
             <div className='mt-10 flex flex-col md:flex-row gap-6 '>
@@ -110,8 +110,8 @@ const Home = () => {
                     <BlogCard4 bg='white' />
                 </div>
             </div>
-            <div className='md:h-screen mt-10 md:w-[98.6vw] md:-ml-10  h-auto bg-[#5F5F5F]  grid grid-cols-1 lg:grid-cols-2'>
-                <div className='w-[90%] h-full flex flex-col justify-around p-10 relative'>
+            <div className='md:h-screen mt-10 md:w-[98.6vw] md:-ml-10  h-auto bg-[#5F5F5F]  flex '>
+                <div className='w-[55%] h-full flex flex-col justify-around p-10 relative'>
                     <p className='font-sans text-white text-2xl font-bold'>Video Campaigns</p>
                     {videolist[activeCard]}
                     <p className='font-proxima font-[500] text-white text-xl'>National Diabetes Conclave | Education to protect tomorrow</p>
@@ -120,7 +120,7 @@ const Home = () => {
                     <div className='hidden md:block absolute h-[80%] bg-[#ffffff52] w-[2px] right-0 '>
                     </div>
                 </div>
-                <div className='md:w-[90%] w-full h-full flex flex-col justify-around md:py-10 p-5 '>
+                <div className='md:w-[45%] w-full h-full flex flex-col justify-around md:py-10 p-5 '>
                     <p className='font-sans text-white text-2xl font-bold'>Playlist</p>
                     <div>
                         <PlaylistCard />
