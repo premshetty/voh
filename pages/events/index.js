@@ -5,7 +5,9 @@ const index = () => {
     return (
         <>
             <Nav />
-            <div className='mt-32'><AllEvents /></div>
+            <div className='mt-32'>
+                <AllEvents />
+            </div>
         </>
     )
 }

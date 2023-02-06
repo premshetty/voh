@@ -2,10 +2,10 @@ import React from 'react'
 import classes from './editorial.module.css'
 const Card = ({ img, name, para, date, btnclr }) => {
     return (
-        <div className='w-full min-h-[150px]  border-b-[1px] border-[#707070] border-opacity-40 relative flex'>
+        <div className='w-full  min-h-[166px] md:min-h[140px]  border-b-[1px] border-[#707070] border-opacity-40 relative flex'>
             <button className='h-6 rounded-r-full w-auto pl-1 text-xs pr-3 bg-[#AD565B] absolute text-white'>Upcoming </button>
-            <div className='min-w-[120px] max-h-[120px] bg-[#489FC5] flex justify-center items-center text-white font-bold text-2xl text-center'>28 Jan 2023</div>
-            <div className='flex flex-col justify-between ml-5 h-[150px] md:h-[140px]'>
+            <div className='min-w-[120px]  max-h-[120px] bg-[#489FC5] flex justify-center items-center text-white font-bold text-2xl text-center'>28 Jan 2023</div>
+            <div className='flex flex-col justify-between ml-5  h-[150px] md:h-[140px]'>
                 <h2 className='font-semibold whitespace-nowrap text-[black] text-base md:text-lg font-proxima'>{name}</h2>
                 <p className='text-[#606060] text-xs md:text-sm font-proxima'>{para}</p>
                 <div className='flex justify-between w-[100%] items-center'>

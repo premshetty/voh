@@ -60,7 +60,7 @@ const Home = () => {
     }
     return (
         <>
-            <div className='flex mt-28 flex-col-reverse md:flex-row items-start justify-between'>
+            <div className='flex mt-28 flex-col md:flex-row items-start justify-between'>
                 <div className='flex flex-col gap-5 w-full  md:w-[67%]'>
                     <Carousel height='500px'
                         img1='/award.png'
@@ -90,7 +90,7 @@ const Home = () => {
             </div>
             <div className='bg-[#EBEBEB] p-3 md:p-10 md:w-[98.6vw] md:-ml-10'>
                 <p className='text-2xl font-bold font-sans'>News & PR</p>
-                <div className='grid grid-cols-1 md:grid-cols-3 mt-10'>
+                <div className={`flex overflow-x-scroll ${classes.cardcontainer} w-full justify-between mt-10 items-start`}>
                     <NewsandprCard />
                     <NewsandprCard />
                     <NewsandprCard />

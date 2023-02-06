@@ -19,13 +19,15 @@ const Editorials = () => {
         <div>
             <Nav />
             <div className='px-3 md:px-10 flex-col md:flex-row  w-full flex justify-between mt-32'>
-                <div className=' w-full  md:w-[65%]  h-[300px] md:h-[483px]'>
+                <div className=' w-full  md:w-[65%]  h-[300px] md:h-[483px] mb-20 md:mb-0'>
                     <Carousel
                         img1="/persons/banner.jpg" img2="/persons/brand_infocus.png" img3="/persons/banner2.jpg"
                         height='500px'
                     />
                 </div>
+
                 <Trending />
+
             </div>
             <IdeaLeader />
         </div>
