@@ -10,7 +10,6 @@ export default function BasicModal({ openstatus }) {
         setOpen(openstatus)
     }, [openstatus])
 
-
     const handleClose = () => setOpen(false);
     function ValidateEmail(e) {
         if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(e.target.value)) {

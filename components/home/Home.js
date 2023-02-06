@@ -37,7 +37,7 @@ const Home = () => {
                 return <div onClick={() => setActiveCard(item)} className=' cursor-pointer md:w-[90%] flex flex-col items-center justify-center h-[200px] md:p-10 border-b border-[#ffffff52]  '>
                     <div className='flex gap-5 border-[4px] border-[#05B4A2] w-full  p-5 relative h-[160px]'>
                         <p className='text-[#05B4A2] absolute bg-[#5F5F5F] top-[-13px!important] px-4'>Now Playing</p>
-                        <img className='w-[170px] object-cover' src="/allbroadcast/groupImg.png" alt='youtube thumbnail' />
+                        <img className='w-[100px] md:w-[170px] object-cover' src="/allbroadcast/groupImg.png" alt='youtube thumbnail' />
                         <div className='flex flex-col flex-grow justify-between h-full'>
                             <p className='md:text-xl text-sm text-white font-bold font-proxima'>National Diabetes Conclave | Education to protect tomorrow</p>
                             <p className='text-white'>30:00</p>
@@ -47,9 +47,9 @@ const Home = () => {
             } else {
                 return <div onClick={() => setActiveCard(item)} className='cursor-pointer flex gap-5 md:w-[95%] h-[200px] md:p-10 border-b border-[#ffffff52]'>
                     <div className='flex gap-5 w-full  p-5 h-[140px]'>
-                        <img className='w-[170px] object-cover' src="/allbroadcast/groupImg.png" alt='youtube thumbnail' />
+                        <img className='w-[100px] md:w-[170px] object-cover' src="/allbroadcast/groupImg.png" alt='youtube thumbnail' />
                         <div className='flex flex-col flex-grow w-full justify-between h-full'>
-                            <p className='text-xl text-white font-bold font-proxima hover:text-[#05B4A2]'>National Diabetes Conclave | Education to protect tomorrow</p>
+                            <p className='md:text-xl text-sm text-white font-bold font-proxima hover:text-[#05B4A2]'>National Diabetes Conclave | Education to protect tomorrow</p>
                             <p className='text-white'>30:00</p>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ const Home = () => {
     }
     return (
         <>
-            <div className='flex mt-28 flex-col md:flex-row items-start justify-between'>
+            <div className='flex mt-28 flex-col-reverse md:flex-row items-start justify-between'>
                 <div className='flex flex-col gap-5 w-full  md:w-[67%]'>
                     <Carousel height='500px'
                         img1='/award.png'
@@ -110,8 +110,8 @@ const Home = () => {
                     <BlogCard4 bg='white' />
                 </div>
             </div>
-            <div className='md:h-screen mt-10 md:w-[98.6vw] md:-ml-10  h-auto bg-[#5F5F5F]  flex '>
-                <div className='w-[55%] h-full flex flex-col justify-around p-10 relative'>
+            <div className='md:h-screen mt-10 md:w-[98.6vw] md:-ml-10  h-auto bg-[#5F5F5F]  flex flex-col md:flex-row '>
+                <div className='md:w-[55%] h-full flex flex-col justify-around p-10 relative'>
                     <p className='font-sans text-white text-2xl font-bold'>Video Campaigns</p>
                     {videolist[activeCard]}
                     <p className='font-proxima font-[500] text-white text-xl'>National Diabetes Conclave | Education to protect tomorrow</p>

@@ -10,7 +10,7 @@ export const IdealeaderCard = () => {
 
                 <h1 className='font-bold text-2xl font-sans'>Vishaka Goyal</h1>
                 <p className='font-lg font-semibold font-proxima'>Clinicspots</p>
-                <p className='font-proxima'>Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access.</p>
+                <p className='font-proxima text-[#2C2A2A]'>Vishaka Goyal’s Q&A-led tech platform Clinicspots is determined to answer some of healthcare’s most stubborn questions - like information, transparency and access.</p>
                 <p className='text-[#606060] font-proxima mb-5'>01 Nov, 2022</p>
                 <button className='h-10 w-32 font-bold mb-5 mr-5'>Read more</button>
             </div>
