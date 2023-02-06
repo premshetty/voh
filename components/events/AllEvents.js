@@ -30,13 +30,13 @@ export const MainCard = ({ img, date, addon }) => <div className={` ${classes.Id
 export const PublicAwarnessCard = () => {
     return (
         <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[450px] relative border-[4px] border-[#489FC5!important]`}>
-            <p className='h-[150px]  pl-4 pt-4 w-1/2 text-[#489FC5] text-[40px] font-bold'>
+            <p className='h-[150px]  pl-4 pt-4 w-1/2 text-[#489FC5] text-[40px] font-bold font-sans'>
                 28 Jan <br /> <span>2 0 2 3</span>
 
             </p>
             <div className='flex-grow flex flex-col gap-6 bg-[#489FC5] p-4'>
-                <p className='text-white font-bold text-2xl'>Healthcare Leadership and Management Days</p>
-                <p className='text-base text-white'>Leadership, management essentials, strategy development and implementation, business model innovation and moving from financial numbers to </p>
+                <p className='text-white font-bold text-2xl fomnt-sans'>Healthcare Leadership and Management Days</p>
+                <p className='text-base text-white font-proxima'>Leadership, management essentials, strategy development and implementation, business model innovation and moving from financial numbers to </p>
             </div>
             <button className='border border-white rounded-2xl h-10 bottom-10 left-5 text-white w-[150px] absolute px-4'>View Details</button>
 
@@ -53,8 +53,8 @@ export const BrandSolutionCard = () => {
         <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[530px] relative border-[4px] `}>
             <img src="/brandsolution_card.png" className='h-[230px] w-full object-cover' alt="" />
             <div className='flex-grow flex flex-col gap-6 bg-white p-4'>
-                <p className=' font-bold text-2xl'>Healthcare Leadership and Management Days</p>
-                <p className='text-base '>Leadership, management essentials, strategy development and implementation, business model innovation and moving from financial numbers to </p>
+                <p className=' font-bold text-2xl font-sans'>Healthcare Leadership and Management Days</p>
+                <p className='text-base font-proxima'>Leadership, management essentials, strategy development and implementation, business model innovation and moving from financial numbers to </p>
             </div>
             <button className='border border-[#A84266] rounded-2xl h-10 bottom-6 left-5 text-[#A84266] w-[150px] absolute px-4'>View Details</button>
             <p className=' absolute bottom-6 right-5  pl-4 pt-4  text-[#489FC5] text-[20px] font-bold'>
@@ -80,8 +80,8 @@ export const FlagshipEventCard = () => {
                 <img className='absolute top-0 h-[200px] -z-20  w-full object-cover' src="/flagshipevent_card.png" alt="" />
             </div>
             <div className='flex-grow flex flex-col gap-6 bg-white p-4'>
-                <p className=' font-bold text-2xl'>Healthcare Leadership and Management Days</p>
-                <p className='text-base '>Leadership, management essentials, strategy development and implementation, business model innovation and moving from financial numbers to </p>
+                <p className=' font-bold text-2xl font-sans'>Healthcare Leadership and Management Days</p>
+                <p className='text-base font-proxima'>Leadership, management essentials, strategy development and implementation, business model innovation and moving from financial numbers to </p>
             </div>
             <button className='border border-[#A84266] rounded-2xl h-10 bottom-10 left-5 text-[#A84266] w-[150px] absolute px-4'>View Details</button>
 
@@ -101,7 +101,7 @@ const AllEvents = () => {
             <div id='publichealthawarness' className=' w-full mt-10'>
                 <Link href='/events/publichealthawarness'>
                     <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#5F9DC1]'>
-                        <h2 className='font-bold text-xl'>Public Health Awareness</h2>
+                        <h2 className='font-bold text-xl font-sans'>Public Health Awareness</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
                     </div>
                 </Link>
@@ -115,7 +115,7 @@ const AllEvents = () => {
             <div id='brandsolution' className=' w-full mt-10'>
                 <Link href='/events/brandsolution'>
                     <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#51B1A2]'>
-                        <h2 className='font-bold text-xl'>Brand Solution</h2>
+                        <h2 className='font-bold text-xl font-sans'>Brand Solution</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
                     </div>
                 </Link>
@@ -129,7 +129,7 @@ const AllEvents = () => {
             <div id='flagshipevent' className=' w-full mt-10'>
                 <Link href='/events/flagshipevents'>
                     <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#A25B5D]'>
-                        <h2 className='font-bold text-xl'>FlagShip Events</h2>
+                        <h2 className='font-bold text-xl font-sans'>FlagShip Events</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
                     </div>
                 </Link>
