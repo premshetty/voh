@@ -9,7 +9,7 @@ const Card = ({ img, name, para, date, btnclr }) => {
                 <p className='text-[#606060] opacity-80 text-xs md:text-sm font-proxima'>{para}</p>
                 <div className='flex justify-between w-[100%] items-center'>
                     <p className='text-[#7C7C7C] text-xs flex gap-1 items-center'><img className='h-5' src="/icons/location.svg" alt="" />Mumbai</p>
-                    <button className={`border hover:bg-[#FB9100] hover:text-white border-[#FB9100] text-xs md:text-sm px-2 h-5 md:px-5 md:h-8 text-[#FB9100] rounded-[15px]`}>Register Now</button>
+                    <button className={`border hover:bg-[#FB9100] hover:text-white border-[#FB9100] text-xs md:text-sm px-2 h-5 md:px-5 md:h-8 text-[#FB9100] rounded-[15px]`}>Watch Now</button>
                 </div>
             </div>
         </div>

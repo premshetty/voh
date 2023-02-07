@@ -16,11 +16,11 @@ const Card = ({ img, name, para, date, btnclr }) => {
         </div>
     )
 }
-const Events = () => {
+const Events = ({ height }) => {
     return (
-        <div className={`${classes.trendingnow} p-4 w-full  mt-20 min-h-[850px] `}>
+        <div style={{ height: `${height}px` }} className={`${classes.trendingnow} p-4 w-full  mt-20 min-h-[1100px] `}>
             <h1 className='text-[black] font-bold text-2xl font-sans'>Events</h1>
-            <div className={` ${classes.cardContainer} mt-8 flex flex-col gap-2 overflow-scroll h-[780px]`} >
+            <div style={{ height: `${height - 100}px` }} className={` ${classes.cardContainer} mt-8 flex flex-col gap-2 overflow-scroll h-[780px]`} >
                 <Card img='/persons/visaka.png'
                     name='Healthcare Leadership and '
                     para='Leadership, management essentials, strategy development and implementation, business model innovation '

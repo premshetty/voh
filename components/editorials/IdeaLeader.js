@@ -4,7 +4,7 @@ import classes from './editorial.module.css'
 
 export const IdealeaderCard = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard} h-[470px] min-w-full md:min-w-[350px]`}>
+        <div className={`${classes.IdeaLeaderCard} h-[510px] min-w-full md:min-w-[350px]`}>
             <img src="/persons/idea_lead_card.png" alt="" />
             <div className='px-5 flex flex-col gap-4 mt-3'>
 

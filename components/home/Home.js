@@ -14,14 +14,13 @@ import Modal from './Modal'
 
 export const NewsandprCard = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard} bg-white  h-[470px] max-w-[400px] min-w-[350px]`}>
+        <div className={`${classes.IdeaLeaderCard} bg-white   h-[490px] max-w-[400px] min-w-[350px]`}>
             <img src="/persons/news.png" alt="" />
             <div className='px-5 flex flex-col gap-4 mt-3'>
-
                 <h1 className='font-bold text-2xl font-sans'>No dearth of platelets, beds for dengue patients in UP: Dy CM Pathak ..</h1>
                 <p className='text-[#2C2A2A] opacity-80 font-proxima'>Uttar Pradesh Deputy Chief Minister Brajesh Pathak on Thursday claimed there is no dearth of platelets and beds for the …..</p>
                 <p className='text-[#2C2A2A] opacity-80 font-proxima'>01 Nov, 2022</p>
-                <button className='h-10 w-32 font-bold'>Read more</button>
+                <button className='h-10 w-32 font-bold mb-2 mr-2'>Read more</button>
             </div>
         </div>
     )
@@ -89,7 +88,7 @@ const Home = () => {
                     <div id='idealeader' className='px-3 mb-10  md:px-10 w-full '>
                         <Link href='/editorials'>
                             <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#5F9DC1]'>
-                                <h2 className='font-bold text-xl font-sans'>Editorials</h2>
+                                <h2 className='font-bold text-2xl font-sans'>Editorials</h2>
                                 <img src="/icons/right.svg" className='h-4' alt="" />
                             </div>
                         </Link>
@@ -102,10 +101,8 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='w-full md:w-[30%] -mt-20'>
-
-                    <Events />
+                    <Events height={1170} />
                 </div>
-
             </div>
             <div className='bg-[#EBEBEB] p-3 md:p-10 md:w-[98.6vw] md:-ml-10'>
                 <p className='text-2xl font-bold font-sans'>News & PR</p>
@@ -116,7 +113,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='border-b-[3px] mt-10 pb-2 border-[#A25B5D]'>
-                <h2 className='font-bold text-xl font-sans ml-10'>Latest Blog</h2>
+                <h2 className='font-bold text-2xl font-sans ml-10'>Latest Blog</h2>
             </div>
             <div className='mt-10 flex flex-col md:flex-row gap-6 '>
                 <div>
@@ -148,9 +145,7 @@ const Home = () => {
             </div>
             <ImageSlider />
             <div className='mt-10 w-full'>
-
-                <h2 className='font-bold text-xl mt-20 font-sans'>VOH Incubator</h2>
-
+                <h2 className='font-bold text-2xl mt-20 font-sans'>VOH Incubator</h2>
                 <div className='w-full flex-col md:flex-row flex justify-between md:h-[600px] mt-10'>
                     <div className='flex flex-col relative gap-10 md:w-[60%]'>
                         <img className='h-[400px]' src="/voh_incubator.png" alt="" />
@@ -163,7 +158,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <h2 className='font-bold text-xl mt-24 font-sans'>VOH Tv</h2>
+            <h2 className='font-bold text-2xl mt-24 font-sans'>VOH Tv</h2>
             <div className={`${classes.cardcontainer} mt-10 flex overflow-x-scroll overflow-y-hidden w-full gap-10`}>
                 <img src="/allbroadcast/cardIBroad1.png" className='h-[400px]' />
                 <img src="/allbroadcast/cardIBroad1.png" className='h-[400px]' />
