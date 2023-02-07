@@ -18,17 +18,17 @@ export const ContactUS2 = () => {
                 </div>
             </div>
             <div className='flex flex-col gap-10 md:flex-row md:gap-0 justify-center items-center mx-auto w-[80%] p-10'>
-                <div className='border-r-[5px] border-[#F7F7F7] flex flex-col gap-6 p-10'>
+                <div className='border-r-[5px] border-[#F7F7F7] flex flex-col gap-6 p-10 items-center'>
                     <p className='text-lg font-bold'>For general enquiry</p>
                     <p className='text-lg text-[#707070]'>VoH Team</p>
                     <p className='text-lg text-[#AD565B]'>eventteam@voh.in</p>
                 </div>
-                <div className='border-r-[5px] border-[#F7F7F7] flex flex-col gap-6 p-10'>
+                <div className='border-r-[5px] border-[#F7F7F7] flex flex-col gap-6 p-10 items-center'>
                     <p className='text-lg font-bold'>For general enquiry</p>
                     <p className='text-lg text-[#707070]'>VoH Team</p>
                     <p className='text-lg text-[#AD565B]'>eventteam@voh.in</p>
                 </div>
-                <div className='border-r-[5px] border-[#F7F7F7] flex flex-col gap-6 p-10'>
+                <div className='border-r-[5px] border-[#F7F7F7] flex flex-col gap-6 p-10 items-center'>
                     <p className='text-lg font-bold'>For general enquiry</p>
                     <p className='text-lg text-[#707070]'>VoH Team</p>
                     <p className='text-lg text-[#AD565B]'>eventteam@voh.in</p>

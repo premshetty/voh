@@ -10,7 +10,7 @@ const FlagshipEvent = () => {
             <div id='idealeader' className=' w-full mt-10'>
                 <Link href='/events/flagshipevents'>
                     <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#A25B5D]'>
-                        <h2 className='font-bold text-xl'>FlagShip Events</h2>
+                        <h2 className='font-bold text-xl font-sans pl-5'>FlagShip Events</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
                     </div>
                 </Link>
