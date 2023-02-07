@@ -4,7 +4,7 @@ import classes from './editorial.module.css'
 
 export const BrandinfocusCard = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard2} md:h-[470px] min-w-full h-[470px]  md:min-w-[350px]`}>
+        <div className={`${classes.IdeaLeaderCard2}  min-w-full h-auto pb-[30px]  md:min-w-[350px]`}>
             <img src="/persons/brand_infocus.png" alt="" />
             <div className='px-5 flex flex-col justify-between gap-4 mt-3 min-h-[230px]'>
                 <p className='font-proxima'>Cloudphysician is adding the touch of cloud-tech to augment care and amplify access.</p>
