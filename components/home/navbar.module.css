@@ -48,7 +48,7 @@
 @media only screen and (max-width: 600px) {
   .shadow {
     bottom: 0px;
-    width: 98.5vw;
-    left: 0;
+    width: 100vw;
+    left: 4px;
   }
 }
