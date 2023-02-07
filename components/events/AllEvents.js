@@ -38,13 +38,13 @@ export const PublicAwarnessCard = () => {
                 <p className='text-white font-bold text-2xl fomnt-sans'>Healthcare Leadership and Management Days</p>
                 <p className='text-base text-white font-proxima'>Leadership, management essentials, strategy development and implementation, business model innovation and moving from financial numbers to </p>
             </div>
-            <button className='border border-white rounded-2xl h-10 bottom-10 left-5 text-white w-[150px] absolute px-4'>View Details</button>
+            <button className='border hover:bg-[white!important] hover:text-[#489FC5] border-white rounded-2xl h-10 bottom-10 left-5 text-white w-[150px] absolute px-4'>View Details</button>
 
             <img src="/icons/arrow.svg" className='h-5 absolute flex gap-3 bottom-8 right-5' alt="" />
             <div className='flex gap-3 absolute top-[100px] bg-[#489FC5] rounded-full p-2 right-4'>
                 <img src="/icons/sharewhite.svg" className='h-5' alt="" />
             </div>
-            <button className='bg-[#489FC5]'></button>
+            <button className='bg-[#489FC5] '></button>
         </div>
     )
 }
@@ -56,7 +56,7 @@ export const BrandSolutionCard = () => {
                 <p className=' font-bold text-2xl font-sans'>Healthcare Leadership and Management Days</p>
                 <p className='text-base font-proxima'>Leadership, management essentials, strategy development and implementation, business model innovation and moving from financial numbers to </p>
             </div>
-            <button className='border border-[#A84266] rounded-2xl h-10 bottom-6 left-5 text-[#A84266] w-[150px] absolute px-4'>View Details</button>
+            <button className='border hover:bg-button_cta hover:text-white border-[#A84266] rounded-2xl h-10 bottom-6 left-5 text-[#A84266] w-[150px] absolute px-4'>View Details</button>
             <p className=' absolute bottom-6 right-5  pl-4 pt-4  text-[#489FC5] text-[20px] font-bold'>
                 28 Jan <br /> <span>2 0 2 3</span> </p>
             <div className='w-[300px] bg-[#05B4A2] top-[180px] left-0 items-center absolute rounded-r-full flex justify-between px-5 h-10'>
@@ -83,7 +83,7 @@ export const FlagshipEventCard = () => {
                 <p className=' font-bold text-2xl font-sans'>Healthcare Leadership and Management Days</p>
                 <p className='text-base font-proxima'>Leadership, management essentials, strategy development and implementation, business model innovation and moving from financial numbers to </p>
             </div>
-            <button className='border border-[#A84266] rounded-2xl h-10 bottom-10 left-5 text-[#A84266] w-[150px] absolute px-4'>View Details</button>
+            <button className='border border-[#A84266] hover:bg-button_cta hover:text-white rounded-2xl h-10 bottom-10 left-5 text-[#A84266] w-[150px] absolute px-4'>View Details</button>
 
             <img src="/icons/arrow.svg" className='h-5 absolute flex gap-3 top-[170px] left-5' alt="" />
             <div className='flex gap-3 absolute top-[150px] bg-[#AD565B] rounded-full p-2 right-4'>
@@ -101,7 +101,7 @@ const AllEvents = () => {
             <div id='publichealthawarness' className=' w-full mt-10'>
                 <Link href='/events/publichealthawarness'>
                     <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#5F9DC1]'>
-                        <h2 className='font-bold text-xl font-sans'>Public Health Awareness</h2>
+                        <h2 className='font-bold text-xl font-sans pl-5'>Public Health Awareness</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
                     </div>
                 </Link>
@@ -115,7 +115,7 @@ const AllEvents = () => {
             <div id='brandsolution' className=' w-full mt-10'>
                 <Link href='/events/brandsolution'>
                     <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#51B1A2]'>
-                        <h2 className='font-bold text-xl font-sans'>Brand Solution</h2>
+                        <h2 className='font-bold text-xl font-sans  pl-5'>Brand Solution</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
                     </div>
                 </Link>
@@ -129,7 +129,7 @@ const AllEvents = () => {
             <div id='flagshipevent' className=' w-full mt-10'>
                 <Link href='/events/flagshipevents'>
                     <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#A25B5D]'>
-                        <h2 className='font-bold text-xl font-sans'>FlagShip Events</h2>
+                        <h2 className='font-bold text-xl font-sans pl-5'>FlagShip Events</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
                     </div>
                 </Link>

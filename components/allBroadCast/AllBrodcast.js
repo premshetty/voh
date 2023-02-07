@@ -28,15 +28,13 @@ const AllBrodcasr = () => {
             <img src="/icons/right.svg" className="h-4" alt="" />
           </div>
         </Link>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'
+        <div className='flex flex-col flex-wrap md:flex-nowrap md:flex-row justify-between mt-10'
         >
           {[1, 2, 3, 4].map((item) => (
-            <div className={`${classes.IdeaLeaderCard2}`}>
-              <img
-                src="/allbroadcast/cardIBroad1.png"
-                style={{ width: "335px" }}
-              />
-            </div>
+            <img key={item} className={`${classes.IdeaLeaderCard2}`}
+              src="/allbroadcast/cardIBroad1.png"
+              style={{ width: "305px" }}
+            />
           ))}
         </div>
         <Link href='/allbroadcast/voiceofchange'>
@@ -48,21 +46,18 @@ const AllBrodcasr = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'
         >
           {[1, 2, 3, 4].map((item) => (
-            <div className="">
-
-              <AllCard />
-            </div>
+            <AllCard key={item} />
           ))}
         </div>
         <Link href='/allbroadcast/thebigidea'>
-          <div id='thebigidea' className="flex justify-between items-center border-b-[3px] pb-2 border-[#05B4A2]">
+          <div id='thebigidea' className="flex justify-between items-center mt-20 border-b-[3px] pb-2 border-[#05B4A2]">
             <h2 className="font-bold text-xl ml-10 font-sans">The Big Idea</h2>
           </div>
         </Link>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'
         >
-          {[1, 2, 3, 4].map(() => (
-            <img src="/allbroadcast/cardImg1.png" style={{ width: "265px" }} />
+          {[1, 2, 3, 4].map((item) => (
+            <img key={item} className={`${classes.IdeaLeaderCard2}`} src="/allbroadcast/cardImg1.png" style={{ width: "265px" }} />
           ))}
         </div>
       </div>
