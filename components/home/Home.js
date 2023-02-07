@@ -73,7 +73,7 @@ const Home = () => {
     }
     return (
         <>
-            {cookieComp && <div className='bg-[#F4F4F4] z-30 fixed bottom-2 gap-5 h-[130px] w-[98.5vw] flex flex-col justify-center items-center left-0'>
+            {cookieComp && <div className='bg-[#F4F4F4] z-30 fixed bottom-2 px-5 md:px-10 gap-5 h-[130px] w-[98.5vw] flex flex-col justify-center items-center left-0'>
                 <p>This website uses cookies to ensure you get the best experience on your website. <span
                     className='text-[#0046E9] underline underline-offset-2 underline-[#0046E9]'> Learn more</span> </p>
                 <button onClick={() => setCookieComp(false)} className='bg-[#3976EA] text-white w-[100px] h-10 rounded-[10px]'>Got it!</button>

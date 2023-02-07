@@ -44,3 +44,11 @@
 .shadow {
   box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
 }
+
+@media only screen and (max-width: 600px) {
+  .shadow {
+    bottom: 0px;
+    width: 98.5vw;
+    left: 0;
+  }
+}
