@@ -1,8 +1,10 @@
 import React from "react";
+import classes from '../editorials/editorial.module.css'
+
 const AllCard = () => {
   const ConstantData = [{}];
   return (
-    <div className="h-[400px] min-w-[200px] w-[300px] border-[#F7F7F7] border-[5px] border-b-0 p-5 relative">
+    <div className={`h-[400px] min-w-[200px] w-[300px] border-[#F7F7F7] border-[5px] border-b-0 ${classes.voiceofchage} p-5 relative`}>
       <div className="h-full w-full border-[#AD565B] border-[5px] rounded-[30px] p-5">
         <img src="/allbroadcast/pic1st.png" className="absolute  w-full object-cover -z-30 top-20 left-0" alt="" />
         <h2 className="text-2xl font-sans font-bold">Transitioning <br /> Era of Healthcare</h2>

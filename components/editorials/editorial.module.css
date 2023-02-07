@@ -50,3 +50,6 @@
     rgba(92, 90, 90, 1) 100%
   );
 }
+.voiceofchage:hover {
+  box-shadow: inset 0px 0px 0px #00000038, 0px 0px 8px #00000038;
+}
