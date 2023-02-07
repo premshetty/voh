@@ -29,7 +29,7 @@ export const MainCard = ({ img, date, addon }) => <div className={` ${classes.Id
 </div>
 export const PublicAwarnessCard = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[450px] relative border-[4px] border-[#489FC5!important]`}>
+        <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[500px]  relative border-[4px] border-[#489FC5!important]`}>
             <p className='h-[150px]  pl-4 pt-4 w-1/2 text-[#489FC5] text-[40px] font-bold font-sans'>
                 28 Jan <br /> <span>2 0 2 3</span>
 
@@ -50,7 +50,7 @@ export const PublicAwarnessCard = () => {
 }
 export const BrandSolutionCard = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[530px] relative border-[4px] `}>
+        <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[580px] relative border-[4px] `}>
             <img src="/brandsolution_card.png" className='h-[230px] w-full object-cover' alt="" />
             <div className='flex-grow flex flex-col gap-6 bg-white p-4'>
                 <p className=' font-bold text-2xl font-sans'>Healthcare Leadership and Management Days</p>
@@ -59,12 +59,11 @@ export const BrandSolutionCard = () => {
             <button className='border hover:bg-button_cta hover:text-white border-[#A84266] rounded-2xl h-10 bottom-6 left-5 text-[#A84266] w-[150px] absolute px-4'>View Details</button>
             <p className=' absolute bottom-6 right-5  pl-4 pt-4  text-[#489FC5] text-[20px] font-bold'>
                 28 Jan <br /> <span>2 0 2 3</span> </p>
-            <div className='w-[300px] bg-[#05B4A2] top-[180px] left-0 items-center absolute rounded-r-full flex justify-between px-5 h-10'>
-
+            <div className='w-[230px] md:w-[300px] bg-[#05B4A2] top-[180px] left-0 items-center absolute rounded-r-full flex justify-between px-5 h-10'>
                 <img src="/icons/arrow.svg" className='h-5  flex gap-3 ' alt="" />
                 <p className='text-white text-base'>Upcoming</p>
             </div>
-            <div className='flex gap-3 absolute top-[180px] bg-[#05B4A2] rounded-full p-2 right-4'>
+            <div className='flex gap-3 absolute top-[184px] bg-[#05B4A2] rounded-full p-2 right-4'>
                 <img src="/icons/sharewhite.svg" className='h-5' alt="" />
             </div>
 

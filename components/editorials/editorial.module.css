@@ -25,7 +25,6 @@
 }
 .IdeaLeaderCard2:hover,
 .IdeaLeaderCard:hover {
-  background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: inset 0px 2px 1px #00000038, 0px 3px 6px #00000038;
 }
 .IdeaLeaderCard > div > button {
