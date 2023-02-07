@@ -164,7 +164,7 @@ const Home = () => {
                 </div>
             </div>
             <h2 className='font-bold text-xl mt-24 font-sans'>VOH Tv</h2>
-            <div className={`${classes.cardcontainer} mt-10 flex overflow-x-scroll w-full gap-10`}>
+            <div className={`${classes.cardcontainer} mt-10 flex overflow-x-scroll overflow-y-hidden w-full gap-10`}>
                 <img src="/allbroadcast/cardIBroad1.png" className='h-[400px]' />
                 <img src="/allbroadcast/cardIBroad1.png" className='h-[400px]' />
                 <AllCard />
