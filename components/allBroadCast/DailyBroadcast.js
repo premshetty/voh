@@ -1,7 +1,7 @@
 import React from 'react'
 import SeeMore from '../reusalbles/SeeMore'
 import { Nav } from './AllBrodcast'
-
+import classes from '../editorials/editorial.module.css'
 const DailyBroadcast = () => {
     return (
         <>
@@ -10,10 +10,10 @@ const DailyBroadcast = () => {
                 <img src="/allbroadcast/dailyBoadcast.png" alt="" />
                 <div>
                     <div className="mt-10 flex justify-between items-center border-b-[3px] pb-2 border-[#5F9DC1]">
-                        <h2 className="font-bold text-xl">Daily Broadcast</h2>
+                        <h2 className="font-bold text-xl font-sans pl-5">Daily Broadcast</h2>
                     </div>
                     <div>
-                        <h4 className='mt-5'>
+                        <h4 className='mt-5 font-proxima pl-5'>
                             Care is changing, and it is time to take a fresh look at the
                             ecosystem infrastructure that sustains and powers it. Voice of
                             Healthcare brings together leading figures to initiate much-needed
@@ -22,8 +22,8 @@ const DailyBroadcast = () => {
                     </div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-full justify-center gap-y-5 mt-10'
                     >
-                        {[1, 2, 3, 4, 5, 6, 7, 8].map(() => (
-                            <img className='w-full sm:w-[256px]'
+                        {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
+                            <img className={`${classes.IdeaLeaderCard2} w-full sm:w-[256px]`} key={item}
                                 src="/allbroadcast/cardIBroad1.png"
                             />
                         ))}
