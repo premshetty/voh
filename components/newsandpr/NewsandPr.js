@@ -10,7 +10,7 @@ export const Card1 = () => {
                 <p className='text-sm md:text-lg font-proxima'>Uttar Pradesh Deputy Chief Minister Brajesh Pathak on Thursday claimed there is no dearth of platelets and beds for the Uttar Pradesh Deputy Chief Minister Brajesh Pathak on Thursday claimed there is no dearth of platelets and beds for the Uttar Pradesh Deputy Chief Minister Brajesh Pathak on Thursday claimed there is no dearth of platelets and beds for the ….. </p>
                 <p className='text-[#606060] text-sm'>12 Oct, 2022</p>
             </div>
-            <button className='h-10 w-32 bg-button_cta absolute rounded-tl-2xl bottom-0 right-0 font-bold text-white'>Read more</button>
+            <button className='h-10 w-32 bg-button_cta absolute  bottom-0 right-0 font-bold text-white'>Read more</button>
         </div>
     )
 }
@@ -23,7 +23,7 @@ export const Card2 = () => {
                 <p className='text-[#606060] text-sm'>12 Oct, 2022</p>
             </div>
             <img className=' h-auto sm:h-full w-full  sm:w-[150px] md:w-[250px] rounded-2xl object-cover' src="/persons/news.png" alt="" />
-            <button className='h-10 w-32 bg-button_cta absolute rounded-tr-2xl bottom-0 left-0 font-bold text-white'>Read more</button>
+            <button className='h-10 w-32 bg-button_cta absolute bottom-0 left-0 font-bold text-white'>Read more</button>
         </div>
     )
 }
