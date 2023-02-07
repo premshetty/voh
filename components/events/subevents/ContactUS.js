@@ -48,7 +48,7 @@ const ContactUS = () => {
             </div>
             <div className='flex justify-center items-center relative mx-auto mt-20 w-[300px]'>
                 <p className='text-[#489FC5] text-2xl font-bold'>
-                    <span className=' font-bold top-[-10px] left-12 -z-10 text-[120px]  absolute text-[#C9EFFF]'>C</span>
+                    <span className=' font-bold top-[0px] left-12 -z-10 text-[120px]  absolute text-[#C9EFFF]'>C</span>
                     Contact Us</p>
             </div>
             <div className='flex justify-center  flex-col md:flex-row gap-10 md:gap-0 items-center mx-auto w-[80%] p-10'>

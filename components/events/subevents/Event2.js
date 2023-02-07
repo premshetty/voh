@@ -4,9 +4,10 @@ import ContactUS from './ContactUS'
 import Featured from './Featured'
 import SpeakerCard from './SpeakerCard'
 const DiscussCard = () => {
-    return <div className='w-[200px] flex flex-col justify-between p-8 h-[200px] bg-[#489FC5] hover:scale-110 origin-top-left cursor-pointer'>
+    return <div className='w-[200px] relative  flex flex-col justify-between p-8 h-[200px] bg-[#489FC5] hover:scale-110 origin-top-left cursor-pointer'>
         <img src="/icons/globe.svg" className='h-6 -ml-16' alt="" />
-        <p className='text-white  text-lg font-[500] -ml-4'>Healthcare for New India @75</p>
+        <img src="/icons/globebg.svg" className='absolute opacity-30 block top-10 right-0 bottom-0  h-full w-[70%]' alt="" />
+        <p className='text-white  text-lg font-[500] -ml-4 font-sans'>Healthcare for New India @75</p>
     </div>
 }
 const Event2 = () => {
@@ -45,7 +46,37 @@ const Event2 = () => {
                 <SpeakerCard />
             </div>
             <p className='text-2xl text-[#489FC5] font-[500] w-full text-center mt-10'>WHY PARTNER WITH US</p>
-            <p className='text-2xl text-[#489FC5] font-[500] w-full text-center mt-10'>DISCUSSION POINTS</p>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 w-[80%] mx-auto mt-16'>
+                <ul className='flex flex-col gap-12' >
+                    <li className='flex gap-5 items-center text-xl font-bold font-sans'>
+                        <img src="/icons/list.svg" alt="" />
+                        VOH Healthcare Infrastructure Summit '22 | A CALL FOR CHANGE
+                    </li>
+                    <li className='flex gap-5 items-center text-xl font-bold font-sans'>
+                        <img src="/icons/list.svg" alt="" />
+                        VOH Healthcare Infrastructure Summit '22 | A CALL FOR CHANGE
+                    </li>
+                    <li className='flex gap-5 items-center text-xl font-bold font-sans'>
+                        <img src="/icons/list.svg" alt="" />
+                        VOH Healthcare Infrastructure Summit '22 | A CALL FOR CHANGE
+                    </li>
+                </ul>
+                <ul className='flex flex-col gap-12' >
+                    <li className='flex gap-5 items-center text-xl font-bold font-sans'>
+                        <img src="/icons/list.svg" alt="" />
+                        VOH Healthcare Infrastructure Summit '22 | A CALL FOR CHANGE
+                    </li>
+                    <li className='flex gap-5 items-center text-xl font-bold font-sans'>
+                        <img src="/icons/list.svg" alt="" />
+                        VOH Healthcare Infrastructure Summit '22 | A CALL FOR CHANGE
+                    </li>
+                    <li className='flex gap-5 items-center text-xl font-bold font-sans'>
+                        <img src="/icons/list.svg" alt="" />
+                        VOH Healthcare Infrastructure Summit '22 | A CALL FOR CHANGE
+                    </li>
+                </ul>
+            </div>
+            <p className='text-2xl text-[#489FC5] font-[500] w-full text-center mt-16'>DISCUSSION POINTS</p>
             <div className='md:grid flex flex-col items-center justify-center mt-16 justify-items-center gap-y-6 md:gap-y-20  md:grid-cols-3'>
                 <DiscussCard />
                 <DiscussCard />

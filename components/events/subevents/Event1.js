@@ -10,7 +10,7 @@ const Event1 = () => {
         <div>
             <MainCard img="/event1_banner.jpg" date='October 19 , 2022' addon={true} />
             <div className='flex justify-center items-center relative mx-auto mt-20 w-[300px]'>
-                <p className='text-[#489FC5] text-2xl font-bold'> <span className='font-[400] top-[-20px] left-10 -z-10 text-[120px] absolute text-[#C9EFFF]'>O</span> Overview</p>
+                <p className='text-[#489FC5] text-2xl font-bold'> <span className='font-[400] top-[-6px] left-16 -z-10 text-[120px] absolute text-[#C9EFFF]'>O</span> Overview</p>
             </div>
             <div className='mt-20 grid grid-cols-1 gap-10 md:grid-cols-2'>
                 <div>
@@ -26,7 +26,7 @@ const Event1 = () => {
                 <img src="/callforchange.png" alt="" />
             </div>
             <div className='flex justify-center items-center relative mx-auto mt-20 w-[400px]'>
-                <p className='text-[#489FC5] text-2xl font-bold'> <span className='font-[400] top-[-10px] left-10 -z-10 text-[120px] absolute text-[#C9EFFF]'>D</span> Details of the Event</p>
+                <p className='text-[#489FC5] text-2xl font-bold'> <span className='font-[400] top-[-4px] left-16 -z-10 text-[120px] absolute text-[#C9EFFF]'>D</span> Details of the Event</p>
             </div>
             <Featured />
             <div className='flex justify-center items-center relative mx-auto mt-20 w-[200px]'>
@@ -55,7 +55,7 @@ const Event1 = () => {
             <img src="/brands.png" className=' transform  hover:scale-110 transition duration-500 w-[80%]  flex mx-auto mt-10 ' alt="" />
             <div className='flex justify-center items-center relative mx-auto mt-20 w-[200px]'>
                 <p className='text-[#489FC5] text-2xl font-bold'>
-                    <span className=' font-bold top-[-10px] left-6 -z-10 text-[120px]  absolute text-[#C9EFFF]'>A</span>
+                    <span className=' font-bold top-0 left-6 -z-10 text-[120px]  absolute text-[#C9EFFF]'>A</span>
                     Agenda</p>
             </div>
             <Agenda />
