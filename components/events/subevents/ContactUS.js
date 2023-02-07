@@ -40,7 +40,7 @@ export const ContactUS2 = () => {
 const ContactUS = () => {
     return (
         <>
-            <div className='mt-10 h-[400px] w-full flex flex-col gap-6 p-10 justify-center items-center' style={{ backgroundImage: `url('/attendeventbg.png')` }}>
+            <div className='mt-10 h-[400px] w-full flex flex-col gap-6 p-10 justify-center bg-center items-center' style={{ backgroundImage: `url('/eventbg.png')` }}>
                 <p className='text-5xl text-white font-[500]'>Interested to attend event</p>
                 <button className='h-12 px-5 text-white hover:text-button_cta font-[500] bg-button_cta hover:bg-white'>
                     Register Now
