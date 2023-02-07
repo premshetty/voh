@@ -6,16 +6,16 @@ import { BrandSolutionCard, MainCard } from './AllEvents'
 const BrandSolutions = () => {
     return (
         <>
-            <MainCard />
+            <MainCard img='/awards.png' />
             <div id='idealeader' className=' w-full mt-10'>
                 <Link href='/events/brandsolution'>
                     <div className='flex justify-between items-center border-b-[3px] pb-2 border-[#51B1A2]'>
-                        <h2 className='font-bold text-xl'>Brand Solution</h2>
+                        <h2 className='font-bold text-xl font-sans pl-5'>Brand Solution</h2>
                         <img src="/icons/right.svg" className='h-4' alt="" />
                     </div>
                 </Link>
             </div>
-            <div className='mt-10 grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3'>
+            <div className='mt-10 grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 gap-y-5'>
                 <BrandSolutionCard />
                 <BrandSolutionCard />
                 <BrandSolutionCard />

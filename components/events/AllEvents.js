@@ -15,7 +15,7 @@ export const Nav = () => {
     )
 }
 export const MainCard = ({ img, date, addon }) => <div className={` ${classes.IdeaLeaderCard2} flex flex-col gap-2 border border-[#00000028] pb-3`}>
-    <img src={img} alt="" />
+    <img src={img} className='h-[600px] w-full object-cover' alt="" />
     <div className='w-full items-center py-2 flex justify-between px-3'>
         <p className='font-bold text-lg'>{date}</p>
         <div className='flex items-center gap-2'>
@@ -29,7 +29,7 @@ export const MainCard = ({ img, date, addon }) => <div className={` ${classes.Id
 </div>
 export const PublicAwarnessCard = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[500px]  relative border-[4px] border-[#489FC5!important]`}>
+        <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[500px] md:min-h-[450px]  relative border-[4px] border-[#489FC5!important]`}>
             <p className='h-[150px]  pl-4 pt-4 w-1/2 text-[#489FC5] text-[40px] font-bold font-sans'>
                 28 Jan <br /> <span>2 0 2 3</span>
 
@@ -50,7 +50,7 @@ export const PublicAwarnessCard = () => {
 }
 export const BrandSolutionCard = () => {
     return (
-        <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[580px] relative border-[4px] `}>
+        <div className={`${classes.IdeaLeaderCard2} w-full flex flex-col md:w-[400px] min-h-[580px] md:min-h-[530px] relative border-[4px] `}>
             <img src="/brandsolution_card.png" className='h-[230px] w-full object-cover' alt="" />
             <div className='flex-grow flex flex-col gap-6 bg-white p-4'>
                 <p className=' font-bold text-2xl font-sans'>Healthcare Leadership and Management Days</p>
