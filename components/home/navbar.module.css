@@ -41,3 +41,6 @@
 .mobile_menu ul li:hover ul {
   display: block;
 }
+.shadow {
+  box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+}

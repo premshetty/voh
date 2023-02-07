@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Carousel from '../reusalbles/Carousel'
 import IncEvents from './EventsIncubator'
 import Events from '../editorials/Events'
@@ -10,6 +10,8 @@ import { LatestBlogCard } from '../idealeader/IdeaLeader'
 import { BlogCard4 } from '../articleandblogs/Cards'
 import AllCard from '../allBroadCast/VoiceOfChange'
 import ImageSlider from './ImageSlider'
+import Modal from './Modal'
+
 export const NewsandprCard = () => {
     return (
         <div className={`${classes.IdeaLeaderCard} bg-white  h-[470px] max-w-[400px] min-w-[350px]`}>
@@ -31,6 +33,17 @@ const videolist = {
 }
 const Home = () => {
     const [activeCard, setActiveCard] = useState(1)
+    const [openstatus, setOpenStatus] = useState(false)
+    const [cookieComp, setCookieComp] = useState(false)
+    useEffect(() => {
+        setTimeout(() => {
+            setOpenStatus(true)
+            setCookieComp(true)
+        }, 1000);
+    }, [])
+    const handleClose = () => {
+        setOpenStatus(false)
+    }
     const PlaylistCard = () => {
         const cards = [1, 2, 3].map(item => {
             if (activeCard === item) {
@@ -60,6 +73,12 @@ const Home = () => {
     }
     return (
         <>
+            {cookieComp && <div className='bg-[#F4F4F4] z-30 fixed bottom-2 gap-5 h-[130px] w-[98.5vw] flex flex-col justify-center items-center left-0'>
+                <p>This website uses cookies to ensure you get the best experience on your website. <span
+                    className='text-[#0046E9] underline underline-offset-2 underline-[#0046E9]'> Learn more</span> </p>
+                <button onClick={() => setCookieComp(false)} className='bg-[#3976EA] text-white w-[100px] h-10 rounded-[10px]'>Got it!</button>
+            </div>}
+            <Modal openstatus={openstatus} close={handleClose} />
             <div className='flex mt-28 flex-col md:flex-row items-start justify-between'>
                 <div className='flex flex-col gap-5 w-full  md:w-[67%]'>
                     <Carousel height='500px'
